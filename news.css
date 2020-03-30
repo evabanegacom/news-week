@@ -13,15 +13,23 @@
 }
 
 .small-nav-1 {
-    border:1px solid blue;
     display: flex;
     justify-content: flex-start;
     align-items: center
 }
 
+.ml2 {
+    margin-left: 1%;
+}
+
 .nav-2 {
-    border:1px solid black;
     display: flex;
+    justify-content: flex-end;
+    align-items: center
+}
+
+.fa-bars {
+    color: whitesmoke;
 }
 
 .nw {
@@ -103,6 +111,11 @@
     margin-left:-1em;
 }
 
+@media only screen and (max-height:50vh) {
+    .nav-small {
+        display: flex;
+    }
+}
 
 @media only screen and (max-width: 990px) {
     .main-head {
