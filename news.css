@@ -1,0 +1,116 @@
+.main-head {
+    height: 150 px;
+    border-bottom: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-small {
+    display: none;
+    background-color: red;
+    position: fixed;
+    height: 50px;
+}
+
+.small-nav-1 {
+    border:1px solid blue;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center
+}
+
+.nav-2 {
+    border:1px solid black;
+    display: flex;
+}
+
+.nw {
+    width: 150px;
+}
+
+.first {
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
+
+.second {
+    width: 100%;
+    height: 50px;
+}
+
+.float-left {
+    width: 33.3333%;
+}
+
+.cloud {
+    width: 20px;
+}
+
+.aro {
+    width: 20px;
+}
+
+.button {
+    margin-top: 3em;
+}
+
+.sign {
+    margin-top: 3.5em;
+}
+
+.secondus ul{
+    width: 100%;
+    
+}
+
+.secondus ul li {
+  list-style-type: none;
+}
+
+.secondus div {
+    border-right: 1px solid grey;
+    width: 11%;
+    padding-right: 0.6%;
+    padding-left: 0.6%;
+}
+
+.secondus a{
+  text-decoration: none;
+  color: black;
+  font-weight:700;
+}
+
+.secondus a:hover {
+    color: red;
+}
+
+.secondus .none {
+  border-right: none;
+}
+
+.search {
+    margin-left: -1em;
+}
+
+.fa-search {
+    width: 30px;
+    color: grey;
+    margin-top: 5px;
+}
+
+.search-word {
+    margin-left:-1em;
+}
+
+
+@media only screen and (max-width: 990px) {
+    .main-head {
+        display: none;
+    }
+    
+    .nav-small {
+        display: flex;
+        justify-content: space-around;
+    }
+}
