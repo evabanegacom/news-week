@@ -10,6 +10,7 @@
     background-color: red;
     position: fixed;
     height: 50px;
+    margin-top: -1em;
 }
 
 .small-nav-1 {
@@ -111,13 +112,39 @@
     margin-left:-1em;
 }
 
-@media only screen and (max-height:50vh) {
-    .nav-small {
-        display: flex;
-    }
+.section {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  /* margin:0 auto; */
 }
 
-@media only screen and (max-width: 990px) {
+.sect1{
+    width: 28%;
+    margin:0 auto;
+ }
+ 
+ .sect2{
+     width: 36%;
+     margin: 0 auto;
+ }
+ 
+ .sect3 {
+     width: 30%;
+     margin:0 auto;
+ }
+
+ .trump {
+    width: 100%;
+ }
+
+ .gordon {
+  border-bottom: 1px solid grey;
+  height: 80px;
+ }
+
+ @media only screen and (max-width: 768px) {
     .main-head {
         display: none;
     }
@@ -125,5 +152,49 @@
     .nav-small {
         display: flex;
         justify-content: space-around;
+    }
+
+    .section {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .sect1, .sect2, .sect3 {
+        width: 100%;
+        min-width: 450px;
+    }
+
+    .stories {
+      margin-top: 2em;
+    }
+
+    .sect2 {
+      order:-1;
+    }
+
+    .nig {
+        display: none;
+    }
+} 
+
+@media only screen and (max-width: 992px) {
+    .main-head {
+        display: none;
+    }
+    
+    .nav-small {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .sect1, .sect2, .sect3 {
+        width: 47%;
+        margin-top: 1em;
     }
 }
