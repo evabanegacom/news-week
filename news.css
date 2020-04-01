@@ -203,7 +203,7 @@
 
  .biden {
      width: 100px;
-     height:100px;
+     height:90px;
  }
 
  figure {
@@ -250,6 +250,24 @@
 
  .the-debate {
   margin-top: -1em;
+ }
+
+ .covid {
+     height: 150px;
+     border-bottom:1px solid grey;
+ }
+
+ .covid-19 p {
+     font-size: 14px;
+ }
+
+ .covid-19 a {
+     color:black;
+ }
+
+ .covid-pc {
+  width: 100px;
+  height: 100px;
  }
 
  
