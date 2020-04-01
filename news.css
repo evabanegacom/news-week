@@ -113,7 +113,7 @@
 }
 
 .section {
-  height: 500px;
+  height: 1000px;
   display: flex;
   justify-content: center;
   margin-top: 1em;
@@ -139,11 +139,65 @@
     width: 100%;
  }
 
- .gordon {
-  border-bottom: 1px solid grey;
-  height: 80px;
+ .top {
+     height: 450px;
  }
 
+ .gordon {
+  border-bottom: 1px solid grey;
+  height: 90px;
+ }
+
+ .votes {
+     height:90%;
+ }
+
+ .votes a{
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+  margin: auto;
+ }
+
+ .votes p {
+     font-size: 12px;
+     font-weight: 600;
+     color: grey;
+ }
+
+ .baby-div {
+     width: 100%;
+ }
+
+ .baby {
+     width: 25%;
+ }
+
+ .mini {
+  width: 31%;
+  margin: 0 auto;
+ }
+
+ .anoda-img {
+  height: 150px;
+ }
+
+ .text1 {
+     font-size:16px;
+     color: black;
+ }
+
+ .us p{
+    font-size: 13px;
+ }
+
+ h6 {
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(97, 85, 85);
+ }
+
+ 
  @media only screen and (max-width: 768px) {
     .main-head {
         display: none;
@@ -160,6 +214,11 @@
         width: 100%;
     }
 
+    .sect1 .trump{
+        width: 100%;
+        min-width: 450px;
+    }
+
     .sect1, .sect2, .sect3 {
         width: 100%;
         min-width: 450px;
@@ -167,6 +226,11 @@
 
     .stories {
       margin-top: 2em;
+      height: 30px;
+    }
+
+    .measure {
+        margin-top: -2em;
     }
 
     .sect2 {
@@ -175,6 +239,10 @@
 
     .nig {
         display: none;
+    }
+
+    .gordon {
+      height: 80px;
     }
 } 
 
@@ -197,4 +265,15 @@
         width: 47%;
         margin-top: 1em;
     }
+
+    .stories,
+    .measure {
+        margin-top: 2em;
+        height: 30px;
+      }
+
+    .gordon {
+        border-bottom: 1px solid grey;
+        height: 100px;
+       }      
 }
