@@ -113,11 +113,11 @@
 }
 
 .section {
-  height: 1500px;
+  height: 3300px;
   display: flex;
   justify-content: center;
   margin-top: 1em;
-  /* margin:0 auto; */
+  /* border:1px solid red; */
 }
 
 .sect1{
@@ -317,6 +317,10 @@
     .gordon {
       height: 80px;
     }
+
+    .covid-19 p {
+        font-size: 12px;
+    }
 } 
 
 @media only screen and (max-width: 992px) {
@@ -348,5 +352,9 @@
     .gordon {
         border-bottom: 1px solid grey;
         height: 100px;
-       }      
+       }
+       
+    .covid-19 p {
+       font-size: 14px;
+    }
 }
