@@ -113,7 +113,7 @@
 }
 
 .section {
-  height: 1000px;
+  height: 1500px;
   display: flex;
   justify-content: center;
   margin-top: 1em;
@@ -195,6 +195,61 @@
     font-size: 12px;
     font-weight: 700;
     color: rgb(97, 85, 85);
+ }
+
+ .names {
+     height: 400px;
+ }
+
+ .biden {
+     width: 100px;
+     height:100px;
+ }
+
+ figure {
+     width: 70%;
+ }
+
+ .biden-section {
+     border-top: 3px solid red;
+     border-bottom:1px solid rgb(221, 212, 212);
+     padding-bottom: 10px;
+ }
+
+ .peter {
+     border-top: 1px solid rgb(221, 212, 212);
+     height: 120px;
+ }
+
+ .blue {
+    border-top: 3px solid blue;
+    border-bottom:1px solid rgb(221, 212, 212);
+    padding-bottom: 10px;
+ }
+
+ .roff {
+  width: 70px;
+  margin-top: -4em;
+ }
+
+ .playoff {
+     border-top: none;
+     border-bottom: 1px solid grey;
+ }
+
+ .versus {
+  border-radius: 50%;
+  width: 40px;
+  height:40px;
+  text-align:center;
+  background-color: rgb(41, 39, 39);
+  margin: auto;
+  margin-top: 2.5em;
+  padding-top: 5px;
+ }
+
+ .the-debate {
+  margin-top: -1em;
  }
 
  
