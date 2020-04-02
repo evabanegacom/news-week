@@ -140,7 +140,8 @@
  }
 
  .top {
-     height: 450px;
+     height: 13%;
+     border:1px solid red;
  }
 
  .gordon {
@@ -257,17 +258,27 @@
      border-bottom:1px solid grey;
  }
 
+ .covid-19 {
+     width: 70%;
+ }
+
  .covid-19 p {
      font-size: 14px;
+     float: center;
  }
 
  .covid-19 a {
      color:black;
+     float:center;
+     font-size: 13px;
  }
 
  .covid-pc {
-  width: 100px;
   height: 100px;
+ }
+
+ .covid-con {
+     width: 30%;
  }
 
  
@@ -289,12 +300,12 @@
 
     .sect1 .trump{
         width: 100%;
-        min-width: 450px;
+        min-width:90vw;
     }
 
     .sect1, .sect2, .sect3 {
         width: 100%;
-        min-width: 450px;
+        min-width: 90vw;
     }
 
     .stories {
@@ -310,6 +321,11 @@
       order:-1;
     }
 
+    .top2 {
+        height: 20%;
+        border:1px solid red;
+    }
+
     .nig {
         display: none;
     }
@@ -318,14 +334,38 @@
       height: 80px;
     }
 
-    .covid-19 p {
-        font-size: 12px;
+    .top {
+        height: 15%;
+        border:1px solid red;
     }
+
+   
+    .covid-19 a {
+        color:black;
+        font-size: 12px;
+        margin-left: 1em;
+    }
+
+    .top2 {
+        height: 17%;
+        border:1px solid red;
+    }
+
 } 
 
 @media only screen and (max-width: 992px) {
     .main-head {
         display: none;
+    }
+
+    .covid-19 p {
+        font-size: 10px;
+        margin-left: 1em;
+    }
+   
+    .covid-19 a {
+        color:black;
+        font-size: 12px;
     }
     
     .nav-small {
@@ -338,8 +378,13 @@
         flex-wrap: wrap;
     }
 
+    .top {
+        height: 15%;
+        border:1px solid red;
+    }
+
     .sect1, .sect2, .sect3 {
-        width: 47%;
+        width: 47vw;
         margin-top: 1em;
     }
 
@@ -355,6 +400,12 @@
        }
        
     .covid-19 p {
-       font-size: 14px;
+       font-size: 13px;
+       float: center;
+    }
+
+    .covid-19 a {
+        font-size:13px;
+        margin-left: 1em;
     }
 }
