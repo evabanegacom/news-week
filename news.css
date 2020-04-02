@@ -68,9 +68,9 @@
     margin-top: 3.5em;
 }
 
-.last-img {
+/* .last-img {
   height: 300px;
-}
+} */
 
 .secondus ul{
     width: 100%;
@@ -117,7 +117,6 @@
 }
 
 .section {
-  height: 3500px;
   display: flex;
   justify-content: center;
   margin-top: 1em;
@@ -148,13 +147,11 @@
  }
 
  .top {
-     height: 13%;
      border:1px solid red;
  }
 
  .gordon {
   border-bottom: 1px solid grey;
-  height: 90px;
  }
 
  .votes {
@@ -206,10 +203,6 @@
     color: rgb(97, 85, 85);
  }
 
- .names {
-     height: 400px;
- }
-
  .biden {
      width: 100px;
      height:90px;
@@ -248,7 +241,9 @@
 
  .mag {
      border-bottom: 2px solid grey;
+     margin-top: 100px;
  }
+
  .versus {
   border-radius: 50%;
   width: 40px;
@@ -292,11 +287,28 @@
      width: 30%;
  }
 
+ .sect4 {
+    width: 100%;
+    display:none;
+}
+
  
  @media only screen and (max-width: 768px) {
     .main-head {
         display: none;
     }
+
+    .sect4{
+        display:block;
+        /* position:relative;
+        top:10em; */
+    }
+
+    .paragraphs {
+        position: relative;
+      top: 1em;
+    }
+    
     
     .nav-small {
         display: flex;
@@ -319,21 +331,11 @@
         min-width: 90vw;
     }
 
-    .stories {
-      margin-top: 2em;
-      height: 30px;
-    }
-
-    .measure {
-        margin-top: -2em;
-    }
-
     .sect2 {
       order:-1;
     }
 
     .top2 {
-        height: 20%;
         border:1px solid red;
     }
 
@@ -346,11 +348,13 @@
     }
 
     .top {
-        height: 15%;
         border:1px solid red;
     }
 
-   
+    .sect3 {
+        display: none;
+    }
+
     .covid-19 a {
         color:black;
         font-size: 12px;
@@ -358,9 +362,9 @@
     }
 
     .top2 {
-        height: 17%;
         border:1px solid red;
     }
+
 
 } 
 
@@ -369,13 +373,23 @@
         display: none;
     }
 
+    .sect3 {
+        display:none;
+    }
+
+    .sect4 {
+        width: 100%;
+        display:block;
+        margin-top:2em;
+    }   
+
     .covid-19 p {
         font-size: 10px;
         margin-left: 1em;
     }
 
     .doug {
-        margin-top:12em;
+        /* margin-top: 10.5em; */
     }
    
     .covid-19 a {
@@ -395,7 +409,6 @@
     }
 
     .top {
-        height: 15%;
         border:1px solid red;
     }
 
@@ -403,12 +416,6 @@
         width: 47vw;
         margin-top: 1em;
     }
-
-    .stories,
-    .measure {
-        margin-top: 2em;
-        height: 30px;
-      }
 
     .gordon {
         border-bottom: 1px solid grey;
