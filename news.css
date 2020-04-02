@@ -68,6 +68,10 @@
     margin-top: 3.5em;
 }
 
+.last-img {
+  height: 300px;
+}
+
 .secondus ul{
     width: 100%;
     
@@ -113,11 +117,15 @@
 }
 
 .section {
-  height: 3300px;
+  height: 3500px;
   display: flex;
   justify-content: center;
   margin-top: 1em;
-  /* border:1px solid red; */
+  /* overflow:scroll; */
+}
+
+.section::-webkit-scrollbar {
+    display: none;
 }
 
 .sect1{
@@ -238,6 +246,9 @@
      border-bottom: 1px solid grey;
  }
 
+ .mag {
+     border-bottom: 2px solid grey;
+ }
  .versus {
   border-radius: 50%;
   width: 40px;
@@ -362,6 +373,10 @@
         font-size: 10px;
         margin-left: 1em;
     }
+
+    .doug {
+        margin-top:12em;
+    }
    
     .covid-19 a {
         color:black;
@@ -371,6 +386,7 @@
     .nav-small {
         display: flex;
         justify-content: space-around;
+        border:1px solid red;
     }
 
     .section {
