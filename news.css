@@ -301,15 +301,6 @@
     height: 25px;
 }
 
-.bus {
-    height: 7%;
-}
-
-/* .work-img {
-    height: 40%;
-} */
-
- 
  @media only screen and (max-width: 768px) {
     .main-head {
         display: none;
@@ -344,7 +335,7 @@
         min-width:90vw;
     }
 
-    .sect1, .sect2, .sect3, .bottom-images{
+    .sect1, .sect2, .sect3{
         width: 100%;
         min-width: 90vw;
     }
