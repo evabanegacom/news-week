@@ -300,6 +300,20 @@
     height: 25px;
 }
 
+.workers {
+    width: 70%;
+}
+
+.aoc {
+    font-size: 70%;
+    width:100%;
+}
+
+.united {
+    position: relative;
+    top: 20px;
+}
+
  @media only screen and (max-width: 768px) {
     .main-head {
         display: none;
