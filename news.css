@@ -241,7 +241,6 @@
 
  .mag {
      border-bottom: 2px solid grey;
-     margin-top: 100px;
  }
 
  .versus {
@@ -388,6 +387,10 @@
 
     .nav-small {
         z-index :1;
+    }
+
+    .editor {
+        width: 47vw;
     }
 
     .sect4 {
