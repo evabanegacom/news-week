@@ -346,6 +346,11 @@
         display: none;
     }
 
+    .iphone {
+        min-width:650px;
+        height:150px;
+    }
+
     .sect4{
         display:block;
         /* position:relative;
