@@ -347,19 +347,36 @@
     }
 
     .iphone {
-        min-width:650px;
+        width:100%;
         height:150px;
+    }
+
+    .new-phone {
+        width: 500px;
     }
 
     .sect4{
         display:block;
-        /* position:relative;
-        top:10em; */
+         position:relative;
+        top:10em;
     }
 
     .paragraphs {
         position: relative;
       top: 1em;
+    }
+
+    .foot {
+      display: flex;
+      flex-direction: column;
+      margin-left: 10px;
+    }
+
+    .news-weeks {
+        display:flex;
+        flex-direction: column;
+        /* position: relative;
+        left:-1em; */
     }
     
     
