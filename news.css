@@ -195,8 +195,10 @@
 
  .us p{
     font-size: 13px;
+    font-family: 'Lora', serif;
  }
 
+ 
  h6 {
     font-size: 12px;
     font-weight: 700;
@@ -313,6 +315,31 @@
     position: relative;
     top: 20px;
 }
+
+.in-depth {
+    width: 60%;
+}
+
+.starting {
+    width:35%;
+}
+
+.work-home {
+    position: relative;
+    top: -13em;
+    left: 4em;
+}
+
+.work-from-home {
+    width:30%;
+    height:270px;
+}
+
+.iphone {
+    height: 250px;
+    width: 200px;
+}
+
 
  @media only screen and (max-width: 768px) {
     .main-head {
