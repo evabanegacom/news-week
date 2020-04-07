@@ -1,3 +1,11 @@
+.roboto-condensed {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.lora {
+    font-family: 'Lora', serif;
+}
+
 .main-head {
     height: 150 px;
     border-bottom: 1px solid grey;
@@ -120,11 +128,6 @@
   display: flex;
   justify-content: center;
   margin-top: 1em;
-  /* overflow:scroll; */
-}
-
-.section::-webkit-scrollbar {
-    display: none;
 }
 
 .sect1{
@@ -144,10 +147,6 @@
 
  .trump {
     width: 100%;
- }
-
- .top {
-     border:1px solid red;
  }
 
  .gordon {
@@ -336,8 +335,43 @@
 }
 
 .iphone {
-    height: 250px;
+    height: 300px;
     width: 200px;
+}
+
+.stories,
+.featured {
+    color: grey;
+}
+
+.arro {
+    width: 8px;
+}
+
+.end-button {
+    height:40px;
+}
+
+.copy {
+    font-size: 12px;
+    position: relative;
+    top: 1em;
+}
+
+.icon .fab,
+.icon .fas {
+    text-decoration: none;
+    color: rgb(97, 86, 86);
+    width: 30px;
+    font-size: 25px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgb(136, 129, 129);
+    font-size: 13px;
+    margin-right:10px;
+    padding-right: 10px;
 }
 
 
@@ -406,9 +440,9 @@
       order:-1;
     }
 
-    .top2 {
+    /* .top2 {
         border:1px solid red;
-    }
+    } */
 
     .nig {
         display: none;
@@ -418,9 +452,9 @@
       height: 80px;
     }
 
-    .top {
+    /* .top {
         border:1px solid red;
-    }
+    } */
 
     .sect3 {
         display: none;
@@ -434,6 +468,10 @@
 
     .top2 {
         border:1px solid red;
+    }
+
+    .stories {
+        margin-top: 1.5em;
     }
 
 
@@ -483,9 +521,15 @@
         flex-wrap: wrap;
     }
 
-    .top {
-        border:1px solid red;
+    .stories,
+    .featured {
+        margin-top: 1.5em;
+        color:grey;
     }
+
+    /* .top {
+        border:1px solid red;
+    } */
 
     .sect1, .sect2, .sect3 {
         width: 47vw;
