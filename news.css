@@ -6,6 +6,10 @@
   font-family: 'Lora', serif;
 }
 
+.color-red {
+  color: red;
+}
+
 .new-color {
   background-color: red;
 }
@@ -289,6 +293,7 @@ figure {
 .cover {
   width: 60px;
   height: 25px;
+  background-color: red;
 }
 
 .workers {
@@ -359,9 +364,10 @@ figure {
 .footer a {
   text-decoration: none;
   color: rgb(136, 129, 129);
-  font-size: 13px;
+  font-size: 14px;
   margin-right: 10px;
   padding-right: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .secondus a:hover {
