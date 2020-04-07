@@ -6,9 +6,13 @@
     font-family: 'Lora', serif;
 }
 
+.new-color {
+    background-color: red;
+}
+
 .main-head {
     height: 150 px;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgb(189, 180, 180);
     display: flex;
     flex-direction: column;
 }
@@ -76,21 +80,13 @@
     margin-top: 3.5em;
 }
 
-/* .last-img {
-  height: 300px;
-} */
-
-.secondus ul{
+.secondus .ul-class{
     width: 100%;
     
 }
 
-.secondus ul li {
-  list-style-type: none;
-}
-
 .secondus div {
-    border-right: 1px solid grey;
+    border-right: 1px solid rgb(189, 180, 180);
     width: 11%;
     padding-right: 0.6%;
     padding-left: 0.6%;
@@ -150,7 +146,7 @@
  }
 
  .gordon {
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid rgb(189, 180, 180);
  }
 
  .votes {
@@ -237,11 +233,11 @@
 
  .playoff {
      border-top: none;
-     border-bottom: 1px solid grey;
+     border-bottom: 1px solid rgb(189, 180, 180);;
  }
 
  .mag {
-     border-bottom: 2px solid grey;
+     border-bottom: 1px solid rgb(189, 180, 180);
  }
 
  .versus {
@@ -261,7 +257,7 @@
 
  .covid {
      height: 150px;
-     border-bottom:1px solid grey;
+     border-bottom:1px solid rgb(189, 180, 180);
  }
 
  .covid-19 {
