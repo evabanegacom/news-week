@@ -28,7 +28,7 @@
 .small-nav-1 {
   display: flex;
   justify-content: flex-start;
-  align-items: center
+  align-items: center;
 }
 
 .ml2 {
@@ -38,7 +38,7 @@
 .nav-2 {
   display: flex;
   justify-content: flex-end;
-  align-items: center
+  align-items: center;
 }
 
 .fa-bars {
@@ -80,9 +80,8 @@
   margin-top: 3.5em;
 }
 
-.secondus .ul-class{
+.secondus .ul-class {
   width: 100%;
-    
 }
 
 .secondus div {
@@ -96,10 +95,6 @@
   text-decoration: none;
   color: black;
   font-weight: 700;
-}
-
-.secondus a:hover {
-  color: red;
 }
 
 .secondus .none {
@@ -128,422 +123,400 @@
 
 .sect1 {
   width: 28%;
-  margin:0 auto;
+  margin: 0 auto;
 }
- 
+
 .sect2 {
-    width: 36%;
-    margin: 0 auto;
+  width: 36%;
+  margin: 0 auto;
 }
- 
+
 .sect3 {
   width: 30%;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
 .trump {
   width: 100%;
 }
 
- .gordon {
+.gordon {
   border-bottom: 1px solid rgb(189, 180, 180);
- }
+}
 
- .votes {
-     height:90%;
- }
+.votes {
+  height: 90%;
+}
 
- .votes a{
+.votes a {
   font-size: 16px;
   font-weight: 700;
   color: black;
   margin: auto;
- }
+}
 
- .votes p {
-     font-size: 12px;
-     font-weight: 600;
-     color: grey;
- }
+.votes p {
+  font-size: 12px;
+  font-weight: 600;
+  color: grey;
+}
 
- .baby-div {
-     width: 100%;
- }
+.baby-div {
+  width: 100%;
+}
 
- .baby {
-     width: 25%;
- }
+.baby {
+  width: 25%;
+}
 
- .mini {
+.mini {
   width: 31%;
   margin: 0 auto;
- }
+}
 
- .anoda-img {
+.anoda-img {
   height: 150px;
- }
+}
 
- .text1 {
-     font-size:16px;
-     color: black;
- }
+.text1 {
+  font-size: 16px;
+  color: black;
+}
 
- .us p{
-    font-size: 13px;
-    font-family: 'Lora', serif;
- }
+.us p {
+  font-size: 13px;
+  font-family: 'Lora', serif;
+}
 
- 
- h6 {
-    font-size: 12px;
-    font-weight: 700;
-    color: rgb(97, 85, 85);
- }
+h6 {
+  font-size: 12px;
+  font-weight: 700;
+  color: rgb(97, 85, 85);
+}
 
- .biden {
-     width: 100px;
-     height:90px;
- }
+.biden {
+  width: 100px;
+  height: 90px;
+}
 
- figure {
-     width: 70%;
- }
+figure {
+  width: 70%;
+}
 
- .biden-section {
-     border-top: 3px solid red;
-     border-bottom:1px solid rgb(221, 212, 212);
-     padding-bottom: 10px;
- }
+.biden-section {
+  border-top: 3px solid red;
+  border-bottom: 1px solid rgb(221, 212, 212);
+  padding-bottom: 10px;
+}
 
- .peter {
-     border-top: 1px solid rgb(221, 212, 212);
-     height: 120px;
- }
+.peter {
+  border-top: 1px solid rgb(221, 212, 212);
+  height: 120px;
+}
 
- .blue {
-    border-top: 3px solid blue;
-    border-bottom:1px solid rgb(221, 212, 212);
-    padding-bottom: 10px;
- }
+.blue {
+  border-top: 3px solid blue;
+  border-bottom: 1px solid rgb(221, 212, 212);
+  padding-bottom: 10px;
+}
 
- .roff {
+.roff {
   width: 70px;
   margin-top: -4em;
- }
+}
 
- .playoff {
-     border-top: none;
-     border-bottom: 1px solid rgb(189, 180, 180);;
- }
+.playoff {
+  border-top: none;
+  border-bottom: 1px solid rgb(189, 180, 180);
+}
 
- .mag {
-     border-bottom: 1px solid rgb(189, 180, 180);
- }
+.mag {
+  border-bottom: 1px solid rgb(189, 180, 180);
+}
 
- .versus {
+.versus {
   border-radius: 50%;
   width: 40px;
-  height:40px;
-  text-align:center;
+  height: 40px;
+  text-align: center;
   background-color: rgb(41, 39, 39);
   margin: auto;
   margin-top: 2.5em;
   padding-top: 5px;
- }
+}
 
- .the-debate {
+.the-debate {
   margin-top: -1em;
- }
+}
 
- .covid {
-     height: 150px;
-     border-bottom:1px solid rgb(189, 180, 180);
- }
+.covid {
+  height: 150px;
+  border-bottom: 1px solid rgb(189, 180, 180);
+}
 
- .covid-19 {
-     width: 70%;
- }
+.covid-19 {
+  width: 70%;
+}
 
- .covid-19 p {
-     font-size: 14px;
-     float: center;
- }
+.covid-19 p {
+  font-size: 14px;
+  float: center;
+}
 
- .covid-19 a {
-     color:black;
-     float:center;
-     font-size: 13px;
- }
+.covid-19 a {
+  color: black;
+  float: center;
+  font-size: 13px;
+}
 
- .covid-pc {
+.covid-pc {
   height: 100px;
- }
+}
 
- .covid-con {
-     width: 30%;
- }
+.covid-con {
+  width: 30%;
+}
 
- .sect4 {
-    width: 100%;
-    display:none;
+.sect4 {
+  width: 100%;
+  display: none;
 }
 
 .feat {
-    height: 6%;
+  height: 6%;
 }
 
 .cover {
-    width: 60px;
-    height: 25px;
+  width: 60px;
+  height: 25px;
 }
 
 .workers {
-    width: 70%;
+  width: 70%;
 }
 
 .aoc {
-    font-size: 70%;
-    width:100%;
+  font-size: 70%;
+  width: 100%;
 }
 
 .united {
-    position: relative;
-    top: 20px;
+  position: relative;
+  top: 20px;
 }
 
 .in-depth {
-    width: 60%;
+  width: 60%;
 }
 
 .starting {
-    width:35%;
+  width: 35%;
 }
 
 .work-home {
-    position: relative;
-    top: -13em;
-    left: 4em;
+  position: relative;
+  top: -13em;
+  left: 4em;
 }
 
 .work-from-home {
-    width:30%;
-    height:270px;
+  width: 30%;
+  height: 270px;
 }
 
 .iphone {
-    height: 300px;
-    width: 200px;
+  height: 300px;
+  width: 200px;
 }
 
 .stories,
 .featured {
-    color: grey;
+  color: grey;
 }
 
 .arro {
-    width: 8px;
+  width: 8px;
 }
 
 .end-button {
-    height:40px;
+  height: 40px;
 }
 
 .copy {
-    font-size: 12px;
-    position: relative;
-    top: 1em;
+  font-size: 12px;
+  position: relative;
+  top: 1em;
 }
 
 .icon .fab,
 .icon .fas {
-    text-decoration: none;
-    color: rgb(97, 86, 86);
-    width: 30px;
-    font-size: 25px;
+  text-decoration: none;
+  color: rgb(97, 86, 86);
+  width: 30px;
+  font-size: 25px;
 }
 
 .footer a {
-    text-decoration: none;
-    color: rgb(136, 129, 129);
-    font-size: 13px;
-    margin-right:10px;
-    padding-right: 10px;
+  text-decoration: none;
+  color: rgb(136, 129, 129);
+  font-size: 13px;
+  margin-right: 10px;
+  padding-right: 10px;
 }
 
+.secondus a:hover {
+  color: red;
+}
 
- @media only screen and (max-width: 768px) {
-    .main-head {
-        display: none;
-    }
+@media only screen and (max-width: 768px) {
+  .main-head {
+    display: none;
+  }
 
-    .iphone {
-        width:100%;
-        height:150px;
-    }
+  .iphone {
+    width: 100%;
+    height: 150px;
+  }
 
-    .new-phone {
-        width: 500px;
-    }
+  .new-phone {
+    width: 500px;
+  }
 
-    .sect4{
-        display:block;
-         position:relative;
-        top:10em;
-    }
+  .sect4 {
+    display: block;
+    position: relative;
+    top: 10em;
+  }
 
-    .paragraphs {
-        position: relative;
-      top: 1em;
-    }
+  .paragraphs {
+    position: relative;
+    top: 1em;
+  }
 
-    .foot {
-      display: flex;
-      flex-direction: column;
-      margin-left: 10px;
-    }
+  .foot {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
 
-    .news-weeks {
-        display:flex;
-        flex-direction: column;
-        /* position: relative;
-        left:-1em; */
-    }
-    
-    
-    .nav-small {
-        display: flex;
-        justify-content: space-around;
-        z-index: 1;
-    }
+  .news-weeks {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .section {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-    }
+  .nav-small {
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+  }
 
-    .sect1 .trump{
-        width: 100%;
-        min-width:90vw;
-    }
+  .section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
 
-    .sect1, .sect2, .sect3{
-        width: 100%;
-        min-width: 90vw;
-    }
+  .sect1 .trump {
+    width: 100%;
+    min-width: 90vw;
+  }
 
-    .sect2 {
-      order:-1;
-    }
+  .sect1,
+  .sect2,
+  .sect3 {
+    width: 100%;
+    min-width: 90vw;
+  }
 
-    /* .top2 {
-        border:1px solid red;
-    } */
+  .sect2 {
+    order: -1;
+  }
 
-    .nig {
-        display: none;
-    }
+  .nig {
+    display: none;
+  }
 
-    .gordon {
-      height: 80px;
-    }
+  .gordon {
+    height: 80px;
+  }
 
-    /* .top {
-        border:1px solid red;
-    } */
+  .sect3 {
+    display: none;
+  }
 
-    .sect3 {
-        display: none;
-    }
+  .covid-19 a {
+    color: black;
+    font-size: 12px;
+    margin-left: 1em;
+  }
 
-    .covid-19 a {
-        color:black;
-        font-size: 12px;
-        margin-left: 1em;
-    }
+  .top2 {
+    border: 1px solid red;
+  }
 
-    .top2 {
-        border:1px solid red;
-    }
-
-    .stories {
-        margin-top: 1.5em;
-    }
-
-
-} 
+  .stories {
+    margin-top: 1.5em;
+  }
+}
 
 @media only screen and (max-width: 992px) {
-    .main-head {
-        display: none;
-    }
+  .main-head {
+    display: none;
+  }
 
-    .sect3 {
-        display:none;
-    }
+  .sect3 {
+    display: none;
+  }
 
-    .nav-small {
-        z-index :1;
-    }
+  .editor {
+    width: 47vw;
+  }
 
-    .editor {
-        width: 47vw;
-    }
+  .sect4 {
+    width: 100%;
+    display: block;
+    margin-top: 2em;
+  }
 
-    .sect4 {
-        width: 100%;
-        display:block;
-        margin-top:2em;
-    }   
+  .covid-19 p {
+    margin-left: 1em;
+    font-size: 13px;
+    float: center;
+  }
 
-    .covid-19 p {
-        font-size: 10px;
-        margin-left: 1em;
-    }
-   
-    .covid-19 a {
-        color:black;
-        font-size: 12px;
-    }
-    
-    .nav-small {
-        display: flex;
-        justify-content: space-around;
-        border:1px solid red;
-    }
+  .covid-19 a {
+    color: black;
+    font-size: 12px;
+    margin-left: 1em;
+  }
 
-    .section {
-        display: flex;
-        flex-wrap: wrap;
-    }
+  .nav-small {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+    z-index: 1;
+  }
 
-    .stories,
-    .featured {
-        margin-top: 1.5em;
-        color:grey;
-    }
+  .section {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-    /* .top {
-        border:1px solid red;
-    } */
+  .stories,
+  .featured {
+    margin-top: 1.5em;
+    color: grey;
+  }
 
-    .sect1, .sect2, .sect3 {
-        width: 47vw;
-        margin-top: 1em;
-    }
+  .sect1,
+  .sect2,
+  .sect3 {
+    width: 47vw;
+    margin-top: 1em;
+  }
 
-    .gordon {
-        border-bottom: 1px solid grey;
-        height: 100px;
-       }
-       
-    .covid-19 p {
-       font-size: 13px;
-       float: center;
-    }
-
-    .covid-19 a {
-        font-size:13px;
-        margin-left: 1em;
-    }
+  .gordon {
+    border-bottom: 1px solid grey;
+    height: 100px;
+  }
 }
