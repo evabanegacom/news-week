@@ -1,6 +1,5 @@
 # news-week
 news-week-clone
-# The next web clone
 
 This is a solo project about building a responsive webpage design
 
