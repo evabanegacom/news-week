@@ -1,0 +1,530 @@
+.roboto-condensed {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.lora {
+  font-family: 'Lora', serif;
+}
+
+.color-red {
+  color: red;
+}
+
+.new-color {
+  background-color: red;
+}
+
+.work {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.main-head {
+  height: 150 px;
+  border-bottom: 1px solid rgb(189, 180, 180);
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-small {
+  display: none;
+  background-color: red;
+  position: fixed;
+  height: 50px;
+  margin-top: -1em;
+}
+
+.small-nav-1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ml2 {
+  margin-left: 1%;
+}
+
+.nav-2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.fa-bars {
+  color: whitesmoke;
+}
+
+.nw {
+  width: 150px;
+}
+
+.first {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+}
+
+.second {
+  width: 100%;
+  height: 50px;
+}
+
+.float-left {
+  width: 33.3333%;
+}
+
+.cloud {
+  width: 20px;
+}
+
+.aro {
+  width: 20px;
+}
+
+.button {
+  margin-top: 3em;
+}
+
+.sign {
+  margin-top: 3.5em;
+}
+
+.secondus .ul-class {
+  width: 100%;
+}
+
+.secondus div {
+  border-right: 1px solid rgb(189, 180, 180);
+  width: 11%;
+  padding-right: 0.6%;
+  padding-left: 0.6%;
+}
+
+.secondus a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+.secondus .none {
+  border-right: none;
+}
+
+.search {
+  margin-left: -1em;
+}
+
+.fa-search {
+  width: 30px;
+  color: grey;
+  margin-top: 5px;
+}
+
+.search-word {
+  margin-left: -1em;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.sect1 {
+  width: 28%;
+  margin: 0 auto;
+}
+
+.sect2 {
+  width: 36%;
+  margin: 0 auto;
+}
+
+.sect3 {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.trump {
+  width: 100%;
+}
+
+.gordon {
+  border-bottom: 1px solid rgb(189, 180, 180);
+}
+
+.votes {
+  height: 90%;
+}
+
+.votes a {
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+  margin: auto;
+}
+
+.votes p {
+  font-size: 12px;
+  font-weight: 600;
+  color: grey;
+}
+
+.baby-div {
+  width: 100%;
+}
+
+.baby {
+  width: 25%;
+}
+
+.mini {
+  width: 31%;
+  margin: 0 auto;
+}
+
+.anoda-img {
+  height: 150px;
+}
+
+.text1 {
+  font-size: 16px;
+  color: black;
+}
+
+.us p {
+  font-size: 13px;
+  font-family: 'Lora', serif;
+}
+
+h6 {
+  font-size: 12px;
+  font-weight: 700;
+  color: rgb(97, 85, 85);
+}
+
+.biden {
+  width: 100px;
+  height: 90px;
+}
+
+figure {
+  width: 70%;
+}
+
+.biden-section {
+  border-top: 3px solid red;
+  border-bottom: 1px solid rgb(221, 212, 212);
+  padding-bottom: 10px;
+}
+
+.peter {
+  border-top: 1px solid rgb(221, 212, 212);
+  height: 120px;
+}
+
+.blue {
+  border-top: 3px solid blue;
+  border-bottom: 1px solid rgb(221, 212, 212);
+  padding-bottom: 10px;
+}
+
+.roff {
+  width: 70px;
+  margin-top: -4em;
+}
+
+.playoff {
+  border-top: none;
+  border-bottom: 1px solid rgb(189, 180, 180);
+}
+
+.mag {
+  border-bottom: 1px solid rgb(189, 180, 180);
+}
+
+.versus {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  background-color: rgb(41, 39, 39);
+  margin: auto;
+  margin-top: 2.5em;
+  padding-top: 5px;
+}
+
+.the-debate {
+  margin-top: -1em;
+}
+
+.covid {
+  height: 150px;
+  border-bottom: 1px solid rgb(189, 180, 180);
+}
+
+.covid-19 {
+  width: 70%;
+}
+
+.covid-19 p {
+  font-size: 14px;
+  float: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.covid-19 a {
+  color: black;
+  float: center;
+  font-size: 14px;
+  margin-top: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.covid-pc {
+  height: 100px;
+}
+
+.covid-con {
+  width: 30%;
+}
+
+.sect4 {
+  width: 100%;
+  display: none;
+}
+
+.feat {
+  height: 6%;
+}
+
+.cover {
+  width: 60px;
+  height: 25px;
+  background-color: red;
+}
+
+.workers {
+  width: 70%;
+}
+
+.aoc {
+  font-size: 70%;
+  width: 100%;
+}
+
+.united {
+  position: relative;
+  top: 20px;
+}
+
+.in-depth {
+  width: 60%;
+}
+
+.starting {
+  width: 35%;
+}
+
+.work-home {
+  position: relative;
+  top: -13em;
+  left: 4em;
+}
+
+.work-from-home {
+  width: 30%;
+  height: 270px;
+}
+
+.iphone {
+  height: 300px;
+  width: 200px;
+}
+
+.stories,
+.featured {
+  color: grey;
+}
+
+.arro {
+  width: 8px;
+}
+
+.end-button {
+  height: 40px;
+}
+
+.copy {
+  font-size: 12px;
+  position: relative;
+  top: 1em;
+}
+
+.icon .fab,
+.icon .fas {
+  text-decoration: none;
+  color: rgb(97, 86, 86);
+  width: 30px;
+  font-size: 25px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgb(136, 129, 129);
+  font-size: 14px;
+  margin-right: 10px;
+  padding-right: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.secondus a:hover {
+  color: red;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-head {
+    display: none;
+  }
+
+  .iphone {
+    width: 100%;
+    height: 150px;
+  }
+
+  .new-phone {
+    width: 500px;
+  }
+
+  .sect4 {
+    display: block;
+    position: relative;
+    top: 1em;
+  }
+
+  .foot {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+
+  .news-weeks {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-small {
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+  }
+
+  .section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .sect1 .trump {
+    width: 100%;
+    min-width: 90vw;
+  }
+
+  .sect1,
+  .sect2,
+  .sect3 {
+    width: 100%;
+    min-width: 90vw;
+  }
+
+  .sect2 {
+    order: -1;
+  }
+
+  .nig {
+    display: none;
+  }
+
+  .gordon {
+    height: 80px;
+  }
+
+  .sect3 {
+    display: none;
+  }
+
+  .covid-19 a {
+    color: black;
+    font-size: 12px;
+    margin-left: 1em;
+  }
+
+  .top2 {
+    border: 1px solid red;
+  }
+
+  .stories {
+    margin-top: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .main-head {
+    display: none;
+  }
+
+  .sect3 {
+    display: none;
+  }
+
+  .editor {
+    width: 47vw;
+  }
+
+  .sect4 {
+    width: 100%;
+    display: block;
+    margin-top: 2em;
+  }
+
+  .covid-19 p {
+    margin-left: 1em;
+    font-size: 13px;
+    float: center;
+  }
+
+  .covid-19 a {
+    color: black;
+    font-size: 12px;
+    margin-left: 1em;
+  }
+
+  .nav-small {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+    z-index: 1;
+  }
+
+  .section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .stories,
+  .featured {
+    margin-top: 1.5em;
+    color: grey;
+  }
+
+  .sect1,
+  .sect2,
+  .sect3 {
+    width: 47vw;
+    margin-top: 1em;
+  }
+
+  .gordon {
+    border-bottom: 1px solid grey;
+    height: 100px;
+  }
+}

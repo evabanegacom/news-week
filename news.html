@@ -1,12 +1,1598 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
     <title>NEWS WEEK</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="news.css" type="text/css">
     <meta charset="UTF-8" />
     <script src="https://kit.fontawesome.com/640b8b4dbe.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap"> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
+
+<body>
+    <header>
+        <div class="nav-small w-100 p-0">
+            <div class=" w-50  small-nav-1">
+                <a class="ml-2" href="#"><img class="img-responsive nw" src="images/news-logo.png" alt=""></a>&nbsp;
+                &nbsp;<a class="  text-decoration-none weather text-white" href="#">&nbsp;<img class="cloud"
+                        src="images/30.webp" alt=""><span
+                        class="text-decoration-none"><small><b>&nbsp;&nbsp;28°&nbsp;&nbsp;<span
+                                    class="nig">Lagos,&nbsp;NG&nbsp;</span></b></small><img class="arrow"
+                            src="images/ic-white-arrow.webp" alt=""></span></a>
+            </div>
+            <div class=" nav-2 w-50">
+                <a class="float-right text-decoration-none mr-3 text-white" href="#"><strong>SIGN&nbsp;IN</strong></a>
+                <div class="float-right mr-3"><button
+                        class=" text-md border border-danger float-right bg-white text-danger" type="button"><b
+                            >SUBSCRIBE&nbsp;&nbsp;&nbsp;</b><img class="aro text-danger"
+                            src="images/data_image_svg+xml;….svg" alt=""></button></div>
+                <i class="fa fa-bars float-right mr-3" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="main-head container-fluid m-0 p-0">
+            <div class=first>
+                <div class="float-left h-100 d-flex flex-column justify-content-center">
+                    <a class=" ml-3 mt-2 text-decoration-none weather text-white" href="#"><img class="cloud"
+                            src="images/30.webp" alt=""><span
+                            class="text-decoration-none"><small><b>&nbsp;&nbsp;28°&nbsp;&nbsp;Lagos,
+                                    NG&nbsp;&nbsp;</b></small></span><img class="arrow" src="images/ic-white-arrow.webp"
+                            alt=""></a>
+                    <p class=" ml-3 mt-2 text-white">Fri, Mar 27, 2020</p>
+                </div>
+                <div class="float-left h-100">
+                    <div class="mt-3 d-flex align-items-center justify-content-center news"><a href="#"><img
+                                class="img-responsive big-news" src="images/news-logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="float-left h-100">
+                    <div class="mt-1"><button
+                            class=" mr-2 button1 text-lg border border-danger float-right button bg-white text-danger"
+                            type="button"><b>SUBSCRIBE&nbsp;</b><img
+                                class="aro text-danger" src="images/data_image_svg+xml;….svg" alt=""></button>
+                    </div>
+                    <a class="float-right sign text-decoration-none mr-3 text-white" href="#"><strong>SIGN
+                            IN</strong></a>
+                </div>
+            </div>
+            <div class="second container-fluid bg-white w-100 secondus p-0">
+                <div class="h-100 ul-class d-flex align-items-center pl-0">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <a href="#">U.S</a>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <a href="#">World</a>
+                    </div>
+                    <div class="d-flex    align-items-center justify-content-center">
+                        <a href="#">Business</a>
+                    </div>
+                    <div class="d-flex   align-items-center justify-content-center">
+                        <a href="#">Tech&Science</a>
+                    </div>
+                    <div class="d-flex  align-items-center justify-content-center">
+                        <a href="#">Culture</a>
+                    </div>
+                    <div class="d-flex   align-items-center justify-content-center">
+                        <a href="#">NewsGeek</a>
+                    </div>
+                    <div class="d-flex   align-items-center justify-content-center">
+                        <a href="#">sports</a>
+                    </div>
+                    <div class="d-flex   align-items-center justify-content-center">
+                        <a href="#">Health</a>
+                    </div>
+                    <div class="d-flex   align-items-center justify-content-center">
+                        <a href="#">The&nbsp;Debate</a>
+                    </div>
+                    <div class="d-flex   align-items-center justify-content-center">
+                        <a href="#">Vantage</a>
+                    </div>
+                    <div class="none d-flex  align-items-center justify-content-center">
+                        <a href="#">weather</a>
+                    </div>
+                    <div class="none search-word d-flex align-items-center justify-content-center">
+                        search
+                    </div>
+                    <div class="none search">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="section d-flex flex-wrap">
+            <div class="sect1 p-0">
+                <div class=" bg-white w-100">
+                    <p class="featured roboto-condensed"><b>FEATURED STORIES</b></p>
+                </div>
+                <div class="d-flex w-100 flex-column">
+                    <div><img class="img-responsive trump w-100"
+                            src="https://d.newsweek.com/en/full/1578385/russia-china-assistance-france-europe-coronavirus.webp?w=591&h=364&f=10b7ba0f4338ff58fb08847c81d76e12"
+                            alt="">
+                        </div>
+                    <div class="mt-2"><a class="text-decoration-none corona text-dark" href="#"><b>WITH CORONA VIRUS ON
+                                97 BASES, THE
+                                MILITARY STRUGGLES WITH IT'S MANY MISSIONS</b></a>
+                            </div>
+                    <div class="us">
+                        <p>"All necessary measures"?While every military base is alert to the threat of COVID-19, only a
+                            tiny portion of the force is actually being utilized.</p>
+                    </div>
+                </div>
+                <div class="d-flex w-100 mt-3 flex-wrap">
+                    <div><img class="img-responsive mt-1 trump w-100"
+                            src="https://d.newsweek.com/en/full/1578129/kroger-signage-11.webp?w=466&h=311&f=980c9097c5dab8924a1ee79aecd39ce4"
+                            alt=""></div>
+                    <div class="mt-2"><a class="text-decoration-none corona text-dark" href="#"><b>WITH CORONA VIRUS ON
+                                97 BASES, THE
+                                MILITARY STRUGGLES WITH IT'S MANY MISSIONS</b></a></div>
+                    <div class="us">
+                        <p>"All necessary measures"?While every military base is alert to the threat of COVID-19, only a
+                            tiny portion of the force is actually being utilized.</p>
+                    </div>
+                </div>
+                <div class="d-flex w-100 mt-3 flex-wrap">
+                    <div><img class="img-responsive trump w-100"
+                            src="https://d.newsweek.com/en/full/1578860/sbf-photo-2.jpg?w=500&h=333&f=9014e34050eed9372309cdf319ca6a7a"
+                            alt=""></div>
+                    <div class="mt-2"><a class="text-decoration-none corona text-dark lora" href="#"><b>WITH CORONA
+                                VIRUS ON
+                                97 BASES, THE
+                                MILITARY STRUGGLES WITH IT'S MANY MISSIONS</b></a></div>
+                    <div class="us">
+                        <p>"All necessary measures"?While every military base is alert to the threat of COVID-19, only a
+                            tiny portion of the force is actually being utilized.</p>
+                    </div>
+                </div>
+                <div class="d-flex w-100 border mt-3 flex-wrap">
+                    <div class="mt-2"><img class="img-responsive trump w-100"
+                            src="https://d.newsweek.com/en/full/1568509/newsweek-amplify.png?w=500&h=333&f=98c0ebfc554597997a0de3bd6159812a"
+                            alt=""></div>
+                    <div class="mt-2"><a class="text-decoration-none corona text-dark roboto-condensed" href="#"><b>WITH
+                                CORONA VIRUS ON
+                                97 BASES, THE
+                                MILITARY STRUGGLES WITH IT'S MANY MISSIONS</b></a></div>
+                    <div class="us">
+                        <p>"All necessary measures"?While every military base is alert to the threat of COVID-19, only a
+                            tiny portion of the force is actually being utilized.</p>
+                    </div>
+                </div>
+                <div class="d-flex w-100 border mt-3 flex-wrap">
+                    <div><img class="img-responsive trump w-100"
+                            src="https://d.newsweek.com/en/full/1575945/cybersecurity-vantage-hp-sponsor.jpg?w=500&h=333&f=ac517642217c0d9cec695be60008ce2a"
+                            alt=""></div>
+                    <div class="mt-2"><a class="text-decoration-none corona text-dark" href="#"><b>WITH CORONA VIRUS ON
+                                97 BASES, THE
+                                MILITARY STRUGGLES WITH IT'S MANY MISSIONS</b></a></div>
+                    <div class="us">
+                        <p>"All necessary measures"?While every military base is alert to the threat of COVID-19, only a
+                            tiny portion of the force is actually being utilized.</p>
+                    </div>
+                </div>
+                <div class="d-flex w-100 top border mt-3 flex-wrap">
+                    <div><img class="img-responsive trump w-100"
+                            src="https://d.newsweek.com/en/full/1578070/ms-maasdam.webp?w=397&h=265&q=90&f=3fa5e2b5c5c307a9c83562ae2c7f7654"
+                            alt=""></div>
+                    <div class="mt-2"><a class="text-decoration-none corona text-dark" href="#"><b>WITH CORONA VIRUS ON
+                                97 BASES, THE
+                                MILITARY STRUGGLES WITH IT'S MANY MISSIONS</b></a></div>
+                    <div class="us">
+                        <p>"All necessary measures"?While every military base is alert to the threat of COVID-19, only a
+                            tiny portion of the force is actually being utilized.</p>
+                    </div>
+                </div>
+
+                <div class="d-flex w-100 top border mt-3 flex-wrap">
+                    <div><img class="img-responsive trump w-100"
+                            src="https://d.newsweek.com/en/full/1578115/paris-couple-coronavirus-masks-march-2020.webp?w=397&h=265&q=90&f=d05c2d423315a247e03ee2d748fd8639"
+                            alt=""></div>
+                    <div class="mt-2"><a class="text-decoration-none corona text-dark" href="#"><b>WITH CORONA VIRUS ON
+                                97 BASES, THE
+                            </b></a></div>
+                    <div class="us">
+                        <p>When seeking guidance on beating an addiction, there are many things to consider. Where do
+                            you go to ensure that you will not just turn the corner, but keep carrying on down the right
+                            road for the rest of your life? Find out more..</p>
+                    </div>
+                </div>
+                <div class="d-flex w-100 top last-img mt-3 flex-wrap">
+                    <div class="w-100"><img class="img-responsive  brief trump w-100"
+                            src="https://d.newsweek.com/en/full/1578023/coronavirus-shutdown-new-york-city.webp?w=591&h=364&f=d9ec86cc138fb131b3b2da456cc57c42"
+                            alt=""></div>
+                    <div class="mt-2"><a class="text-decoration-none corona text-dark" href="#"><b>WITH CORONA VIRUS ON
+                                97 BASES, THE
+                            </b></a></div>
+                    <div class="us">
+                        <p>When seeking guidance on beating an addiction, there are many things to consider. Where do
+                            you go to ensure that you will not just turn the corner, but keep carrying on down the right
+                            road for the rest of your life? Find out more..</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sect2 d-flex flex-column p-0">
+                <div class=" w-100">
+                    <p class="stories roboto-condensed"><b>TOP STORY</b></p>
+                </div>
+                <div class="d-flex w-100 flex-wrap">
+                    <div class="w-100 img-1 "><img class="img-responsive w-100"
+                            src="https://d.newsweek.com/en/full/1577811/coronavirus-pandemic-covid-19-china-who.webp?w=591&h=364&f=cb05f67dde4dad4ca4c8a8f047ec626f"
+                            alt="">
+                    </div>
+                    <div class="mt-2">
+                        <a class="text-decoration-none text-dark" href="#"><b>WITH CORONA VIRUS ON 97 BASES, THE
+                                MILITARY STRUGGLES WITH IT'S MANY MISSIONS</b></a>
+                    </div>
+                    <div class="us">
+                        <p>"All necessary measures"?While every military base is alert to the threat of COVID-19, only a
+                            tiny portion of the force is actually being utilized.</p>
+                    </div>
+                </div>
+                <h6 class="roboto-condensed"><strong>CULTURE & TRAVEL</strong></h6>
+                    <div class="baby-div w-100 d-flex">
+                        <div class="d-flex flex-wrap mini">
+                            <div class="d-flex top flex-wrap">
+                                <div><img class="img-responsive anoda-img trump w-100"
+                                        src="https://d.newsweek.com/en/full/1577620/cul-uncharted-movies-banner.webp?w=397&h=397&f=7a8dc420adaf659fa4ff50e50d107096"
+                                        alt=""></div>
+                                <div><a class="text-decoration-none lora corona text1" href="#">I'm locked down in Italy
+                                        playing music but i'm more worried about America</a></div>
+                                <div class="us">
+                                    <p>As businesses close and people are told to stay in their homes to combat the
+                                        coronavirus, church tithing is down nearly 75 percent in some cases, leading to
+                                        some churches to pivot to online donation.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-wrap mini">
+                            <div class="d-flex top flex-wrap">
+                                <div><img class="img-responsive anoda-img  trump w-100"
+                                        src="https://d.newsweek.com/en/full/1576981/meri-gubeladze.webp?w=397&h=397&f=aa22dc87c1eb4e3151dfd3aee18f3d91"
+                                        alt=""></div>
+                                <div><a class="text-decoration-none lora corona text1" href="#">I'm locked down in Italy
+                                        playing music but i'm more worried about America</a></div>
+                                <div class="us">
+                                    <p>As businesses close and people are told to stay in their homes to combat the
+                                        coronavirus, church tithing is down nearly 75 percent in some cases, leading to
+                                        some churches to pivot to online donation.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-wrap mini">
+                            <div class="d-flex top flex-wrap">
+                                <div><img class="img-responsive anoda-img trump mini w-100"
+                                        src="https://d.newsweek.com/en/full/1577190/locked-down-italy-playing-music.webp?w=397&h=397&f=fff013a398a6aa17054e4a960dd6ed06"
+                                        alt=""></div>
+                                <div><a class="text-decoration-none corona text1 lora" href="#">I'm locked down in Italy
+                                        playing music but i'm more worried about America</a></div>
+                                <div class="us">
+                                    <p>As businesses close and people are told to stay in their homes to combat the
+                                        coronavirus, church tithing is down nearly 75 percent in some cases, leading to
+                                        some churches to pivot to online donation.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex mt-5 flex-column">
+                        <div class="debate roboto-condensed border-bottom">
+                            <h6><strong>MORE STORIES</strong></h6>
+                        </div>
+                        <div class=" d-flex covid align-items-center w-100 justify-content-center flex-wrap">
+                            <img class="covid-pc"
+                                src="https://d.newsweek.com/en/full/1579528/joe-biden.webp?w=95&h=95&f=df27a8975d39d2235db7b823a2290bde"
+                                alt="">
+                            <div class=" d-flex flex-column covid-19  m-auto"><a class="mt-3 roboto-condensed" href="#"><b>dr
+                                        fauci says newyork's covid 19 response is extremely powerful</b></a>
+                                <p class="mt-1 roboto-condensed">The head of the National Institute of Allergy and Infectious Diseases told Vanity
+                                    Fair that he had a good working relationship with President Donald Trump.</p>
+                            </div>
+                        </div>
+                        <div class=" d-flex covid align-items-center w-100 justify-content-center flex-wrap">
+                            <img class="covid-pc"
+                                src="https://d.newsweek.com/en/full/1579465/tablets-containing-chloroquine-plaqueril.webp?w=95&h=95&f=1ff6a058e09b0e96b963b874033e29b7"
+                                alt="">
+                            <div class=" d-flex flex-column covid-19  roboto-condensed m-auto"><a href="#"><b>dr
+                                        fauci says newyork's covid 19 response is extremely powerful</b></a>
+                                <p>The head of the National Institute of Allergy and Infectious Diseases told Vanity
+                                    Fair that he had a good working relationship with President Donald Trump.</p>
+                            </div>
+                        </div>
+                        <div class=" d-flex covid align-items-center w-100 justify-content-center flex-wrap">
+                            <img class="covid-pc"
+                                src="https://d.newsweek.com/en/full/1579255/coronavirus-covid-19-getty-brazil-scientist-laboratory.webp?w=95&h=95&f=9f34ff4e62c8cf48cdb02c95cdb65be4"
+                                alt="">
+                            <div class="float-right d-flex flex-column covid-19 m-auto"><a href="#"><b>dr fauci
+                                        says newyork's covid 19 response is extremely
+                                        powerful</b></a>
+                                <p>The head of the National Institute of Allergy and Infectious Diseases told Vanity
+                                    Fair that he had a good working relationship with President Donald Trump.</p>
+                            </div>
+                        </div>
+                        <div class=" d-flex covid align-items-center w-100 justify-content-center flex-wrap">
+                            <img class="covid-pc"
+                                src="https://d.newsweek.com/en/full/1579289/juda-south-sudan-coronavirus-disinfect-china-us.webp?w=95&h=95&f=eaf9a3ea0f409340956e90cafbe7847d"
+                                alt="">
+                            <div class="float-center d-flex flex-column covid-19 m-auto"><a href="#"><b>dr
+                                        fauci says newyork's covid 19 response is extremely
+                                        powerful</b></a>
+                                <p>The head of the National Institute of Allergy and Infectious Diseases told Vanity
+                                    Fair that he had a good working relationship with President Donald Trump.</p>
+                            </div>
+                        </div>
+                        <div class=" d-flex covid align-items-center w-100 justify-content-center flex-wrap">
+                            <img class="covid-pc"
+                                src="https://d.newsweek.com/en/full/1578086/dr-anthony-fauci.webp?w=95&h=95&f=1481d379cabab7c927258e0107193931"
+                                alt="">
+                            <div class="float-right covid-19 m-auto"><a href="#"><b>dr fauci
+                                        says newyork's covid 19 response is extremely
+                                        powerful</b></a>
+                                <p>The head of the National Institute of Allergy and Infectious Diseases told Vanity
+                                    Fair that he had a good working relationship with President Donald Trump.</p>
+                            </div>
+                        </div>
+                        <div class=" d-flex covid align-items-center w-100 justify-content-center flex-wrap">
+                            <img class="covid-pc"
+                                src="https://d.newsweek.com/en/full/1579448/trump-fauci.webp?w=95&h=95&f=9728385ad779e4bd16b26b225addde18"
+                                alt="">
+                            <div class="float-right d-flex flex-column covid-19 m-auto"><a href="#"><b>dr fauci
+                                        says newyork's covid 19 response is extremely
+                                        powerful</b></a>
+                                <p>The head of the National Institute of Allergy and Infectious Diseases told Vanity
+                                    Fair that he had a good working relationship with President Donald Trump.</p>
+                            </div>
+                        </div>
+                        <div class=" d-flex covid align-items-center w-100 justify-content-center flex-wrap">
+                            <img class="covid-pc"
+                                src="https://d.newsweek.com/en/full/1579316/malaysian-tiger-cub.webp?w=95&h=95&f=04e4092edd1cafa95accacb101ae0238"
+                                alt="">
+                            <div class="float-right d-flex flex-column covid-19 m-auto"><a href="#"><b>dr fauci
+                                        says newyork's covid 19 response is extremely
+                                        powerful</b></a>
+                                <p>The head of the National Institute of Allergy and Infectious Diseases told Vanity
+                                    Fair that he had a good working relationship with President Donald Trump.</p>
+                            </div>
+                        </div>
+                        <div class=" d-flex covid align-items-center w-100 justify-content-center flex-wrap">
+                            <img class="covid-pc"
+                                src="https://d.newsweek.com/en/full/1578086/dr-anthony-fauci.webp?w=95&h=95&f=1481d379cabab7c927258e0107193931"
+                                alt="">
+                            <div class="float-right d-flex flex-column covid-19 m-auto"><a href="#"><b>dr fauci
+                                        says newyork's covid 19 response is extremely
+                                        powerful</b></a>
+                                <p>The head of the National Institute of Allergy and Infectious Diseases told Vanity
+                                    Fair that he had a good working relationship with President Donald Trump.</p>
+                            </div>
+                        </div>
+                        <div class=" d-flex covid align-items-center w-100 justify-content-center flex-wrap">
+                            <img class="covid-pc"
+                                src="https://d.newsweek.com/en/full/1578086/dr-anthony-fauci.webp?w=95&h=95&f=1481d379cabab7c927258e0107193931"
+                                alt="">
+                            <div class="float-right d-flex flex-column covid-19 m-auto"><a href="#"><b>dr fauci
+                                        says newyork's covid 19 response is extremely
+                                        powerful</b></a>
+                                <p>The head of the National Institute of Allergy and Infectious Diseases told Vanity
+                                    Fair that he had a good working relationship with President Donald Trump.</p>
+                            </div>
+                        </div>
+                        <div class=" d-flex covid align-items-center w-100 justify-content-center flex-wrap">
+                            <img class="covid-pc"
+                                src="https://d.newsweek.com/en/full/1579351/coronavirus-update-new-orleans-new-york-detroit.webp?w=95&h=95&f=91a605a7461937ba2551cf60c787f041"
+                                alt="">
+                            <div class="float-right d-flex flex-column covid-19 m-auto"><a href="#"><b>dr fauci
+                                        says newyork's covid 19 response is extremely
+                                        powerful</b></a>
+                                <p>The head of the National Institute of Allergy and Infectious Diseases told Vanity
+                                    Fair that he had a good working relationship with President Donald Trump.</p>
+                            </div>
+                        </div>
+                        <div class=" d-flex covid align-items-center w-100 justify-content-center flex-wrap">
+                            <img class="covid-pc"
+                                src="https://d.newsweek.com/en/full/1576522/prince-charles-coronavirus-queen-elizabeth.webp?w=95&h=95&f=edbae338a3e0a038d9b761930a2a4bb8"
+                                alt="">
+                            <div class="float-right d-flex flex-column covid-19 m-auto"><a href="#"><b>dr fauci
+                                        says newyork's covid 19 response is extremely
+                                        powerful</b></a>
+                                <p>The head of the National Institute of Allergy and Infectious Diseases told Vanity
+                                    Fair that he had a good working relationship with President Donald Trump.</p>
+                            </div>
+                        </div>
+                        <div class=" d-flex covid align-items-center w-100 justify-content-center flex-wrap">
+                            <img class="covid-pc"
+                                src="https://d.newsweek.com/en/full/1579303/chernobyl-exclusion-zone-fire.webp?w=95&h=95&f=49ada6b0646521c8c57d16d9d1033555"
+                                alt="">
+                            <div class="float-right d-flex flex-column covid-19 m-auto"><a href="#"><b>dr fauci
+                                        says newyork's covid 19 response is extremely
+                                        powerful</b></a>
+                                <p>The head of the National Institute of Allergy and Infectious Diseases told Vanity
+                                    Fair that he had a good working relationship with President Donald Trump.</p>
+                            </div>
+                        </div>
+                        <div class=" d-flex covid align-items-center w-100 justify-content-center flex-wrap">
+                            <img class="covid-pc"
+                                src="https://d.newsweek.com/en/full/1579268/irs-stimulus-checks-deposit-date-coronavirus-payments.webp?w=95&h=95&f=9e1815e8dff1631630f81e55a2f8bb74"
+                                alt="">
+                            <div class="float-right d-flex flex-column covid-19 m-auto"><a href="#"><b>dr fauci
+                                        says newyork's covid 19 response is extremely
+                                        powerful</b></a>
+                                <p>The head of the National Institute of Allergy and Infectious Diseases told Vanity
+                                    Fair that he had a good working relationship with President Donald Trump.</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="sect3">
+                <div>
+                    <div class=" w-100 d-flex roboto-condensed align-items-center stories">
+                        <p><b>OPINION</b></p>
+                    </div>
+                    <div class=" names d-flex flex-column">
+                        <div class="gordon d-flex justify-content-center">
+                            <div><a href="#"><img
+                                        src="https://d.newsweek.com/en/full/1561683/doug-gordon.webp?w=63&h=63&f=2ee0e0bead2b09866ef97374e69a1501" alt=""></a>
+                            </div>
+                            <div class="ml-3 d-flex votes align-self-center flex-column"><a
+                                    class="text-decoration-none text-dark" href="#">Our right to vote in november is in
+                                    real
+                                    danger but it can still be saved</a>
+                                <p>BY DOUG GOURDON</p>
+                            </div>
+                        </div>
+                        <div class="gordon d-flex justify-content-center">
+                            <div class="mt-2"><a href=""><img
+                                        src="https://d.newsweek.com/en/full/1577421/hank-gilman.webp?w=63&h=63&f=f18b9a7364da071493072861d8b4448f"
+                                        alt=""></a></div>
+                            <div class="ml-3 d-flex align-self-center votes flex-column"><a
+                                    class="text-decoration-none text-dark " href="#">Our right to vote in november is in
+                                    real danger but it can still be saved</a>
+                                <p>BY DOUG GOURDON</p>
+                            </div>
+                        </div>
+                        <div class="gordon d-flex justify-content-center">
+                            <div class="mt-2 d-flex justify-content-center"><a href=""><img
+                                        src="https://d.newsweek.com/en/full/1577421/hank-gilman.webp?w=63&h=63&f=f18b9a7364da071493072861d8b4448f"
+                                        alt=""></a></div>
+                            <div class="ml-3 d-flex  align-self-center votes flex-column"><a
+                                    class="text-decoration-none text-dark " href="#">Our right to vote in november is in
+                                    real danger but it can still be saved</a>
+                                <p>BY DOUG GOURDON</p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <div class="mt-2"><a href=""><img
+                                        src="https://d.newsweek.com/en/full/1577421/hank-gilman.webp?w=63&h=63&f=f18b9a7364da071493072861d8b4448f"
+                                        alt=""></a></div>
+                            <div class="ml-3 d-flex align-self-center votes w-100 flex-column"><a
+                                    class=" link text-decoration-none text-dark " href="#">Our right to vote in november
+                                    is
+                                    in real danger but it can still be saved</a>
+                                <p>BY DOUG GOURDON</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="debate">
+                        <h6><strong>THE DEBATE</strong></h6>
+                    </div>
+                    <div class="d-flex w-100 biden-section">
+                        <img class="img-responsive biden"
+                            src="https://d.newsweek.com/en/full/1575781/joe-biden.webp?w=397&h=265&f=143b9f300ab9db80889ea2d79ae4e81b"
+                            alt="">
+                        <figure class=" ml-auto mt-auto">Biden's running mate needs to win him an entire state not justa
+                            constituency</figure>
+                    </div>
+                    <div class=" peter mt-1">
+                        <p><small>BY<strong>&nbsp;PETER ROFF</strong></small></p>
+                        <img class="roff float-right"
+                            src="https://d.newsweek.com/en/full/1528785/roff-new.webp?w=150&h=150&f=0992b2cf5c54139a019181659687bf9a"
+                            alt="">
+                        <p class="versus text-white">VS</p>
+                    </div>
+                    <div class="d-flex w-100 blue biden-section">
+                        <img class="img-responsive biden"
+                            src="https://d.newsweek.com/en/full/1573022/joe-biden-bernie-sanders.webp?w=397&h=265&f=f90d6b535ea0fcac3ae722c195fdf784"
+                            alt="">
+                        <figure class=" ml-auto mt-auto">Biden's running mate needs to win him an entire state not justa
+                            constituency</figure>
+                    </div>
+                    <div class="peter">
+                        <p><small>BY<strong>&nbsp;PETER ROFF</strong></small></p>
+                        <img class="roff float-right"
+                            src="https://d.newsweek.com/en/full/1528785/roff-new.webp?w=150&h=150&f=0992b2cf5c54139a019181659687bf9a"
+                            alt="">
+                    </div>
+                    <div class="the-debate">
+                        <div class="debate">
+                            <h6 class="roboto-condensed"><strong>LATEST NEWS</strong></h6>
+                        </div>
+                        <div class="d-flex w-100 playoff biden-section">
+                            <img class="img-responsive biden"
+                                src="https://d.newsweek.com/en/full/1579594/laura-ingraham.webp?w=95&h=95&f=a8a01fbbb2c7eeba3d8fcd8f03b78dfa"
+                                alt="">
+                            <figure class=" ml-auto mt-auto roboto-condensed"><strong>Biden's running mate needs to win him an entire
+                                    state not justa constituency</strong></figure>
+                        </div>
+                        <div class="d-flex w-100 mt-2 playoff biden-section">
+                            <img class="img-responsive biden"
+                                src="https://d.newsweek.com/en/full/1578432/chris-cuomo.webp?w=95&h=95&f=b1a535c0f0802a46d19589e335a17516"
+                                alt="">
+                            <figure class=" ml-auto mt-auto roboto-condensed"><strong>Biden's running mate needs to win him an entire
+                                    state not justa constituency</strong></figure>
+                        </div>
+                        <div class="d-flex w-100 mt-2 playoff biden-section">
+                            <img class="img-responsive biden"
+                                src="https://d.newsweek.com/en/full/1579597/donald-trump.webp?w=95&h=95&f=ca9f3ae1452d0232e171ce807ec46ead"
+                                alt="">
+                            <figure class=" ml-auto mt-auto roboto-condensed"><strong>Biden's running mate needs to win him an entire
+                                    state not justa constituency</strong></figure>
+                        </div>
+                        <div class="d-flex w-100 mt-2 playoff biden-section">
+                            <img class="img-responsive biden"
+                                src="https://d.newsweek.com/en/full/1579593/george-pell.webp?w=95&h=95&f=bcc6bd7ae5fc9c7aab75c01d459bcf2b"
+                                alt="">
+                            <figure class=" ml-auto mt-auto roboto-condensed"><strong>Biden's running mate needs to win him an entire
+                                    state not justa constituency</strong></figure>
+                        </div>
+                        <div class="d-flex w-100 mt-2 playoff biden-section">
+                            <img class="img-responsive biden"
+                                src="https://d.newsweek.com/en/full/1575781/joe-biden.webp?w=397&h=265&f=143b9f300ab9db80889ea2d79ae4e81b"
+                                alt="">
+                            <figure class=" ml-auto mt-auto roboto-condensed"><strong>Biden's running mate needs to win him an entire
+                                    state not justa constituency</strong></figure>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="d-flex item1 w-100 top flex-wrap">
+                    <div class="w-100"><img class="img-responsive trump w-100"
+                            src="https://d.newsweek.com/en/full/1572014/worlds-best-hospitals-2020.png?w=500&h=333&f=c871e2709e79f9ba030be976797f7aa2"
+                            alt=""></div>
+                    <div class="mt-2"><a class="text-decoration-none corona text-dark" href="#"><b>WITH CORONA VIRUS ON
+                                97 BASES, THE
+                                MILITARY STRUGGLES WITH IT'S MANY MISSIONS</b></a></div>
+                    <div class="us">
+                        <p>"All necessary measures"?While every military base is alert to the threat of COVID-19, only a
+                            tiny portion of the force is actually being utilized.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class=" d-flex align-items-center justify-content-center w-100">
+                        <div><img class="w-100" src="images/news-sign.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="d-flex item1 w-100 top flex-wrap">
+                    <div class="w-100"><img class="img-responsive trump w-100"
+                            src="https://d.newsweek.com/en/full/1574761/american-university-sharjah-v2.jpg?w=500&h=333&f=8c4272ef34197fd3bd77e9b12233cc01"
+                            alt=""></div>
+                    <div class="mt-2"><a class="text-decoration-none corona text-dark" href="#"><b>WITH CORONA VIRUS ON
+                                97 BASES, THE
+                                MILITARY STRUGGLES WITH IT'S MANY MISSIONS</b></a></div>
+                    <div class="us">
+                        <p>"All necessary measures"?While every military base is alert to the threat of COVID-19, only a
+                            tiny portion of the force is actually being utilized.</p>
+                    </div>
+                </div>
+                <div class="d-flex item1 w-100 top flex-wrap">
+                    <div class="w-100"><img class="img-responsive trump w-100"
+                            src="https://d.newsweek.com/en/full/1572014/worlds-best-hospitals-2020.png?w=500&h=333&f=c871e2709e79f9ba030be976797f7aa2"
+                            alt=""></div>
+                    <div class="mt-2"><a class="text-decoration-none corona text-dark" href="#"><b>WITH CORONA VIRUS ON
+                                97 BASES, THE
+                                MILITARY STRUGGLES WITH IT'S MANY MISSIONS</b></a></div>
+                    <div class="us">
+                        <p>"All necessary measures"?While every military base is alert to the threat of COVID-19, only a
+                            tiny portion of the force is actually being utilized.</p>
+                    </div>
+                </div>
+                <div class="d-flex item1 w-100 top flex-wrap">
+                    <div class="w-100"><img class="img-responsive trump w-100"
+                            src="https://d.newsweek.com/en/full/1559216/tokyo-my-city-chizu-nakamoto.jpg?w=500&h=333&f=9c0c7599e1d2310c5649861e93649619"
+                            alt=""></div>
+                    <div class="mt-2"><a class="text-decoration-none corona text-dark" href="#"><b>WITH CORONA VIRUS ON
+                                97 BASES, THE
+                                MILITARY STRUGGLES WITH IT'S MANY MISSIONS</b></a></div>
+                    <div class="us">
+                        <p>"All necessary measures"?While every military base is alert to the threat of COVID-19, only a
+                            tiny portion of the force is actually being utilized.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section1">
+        <div class="sect4 w-100">
+            <div>
+                <div class="w-100 border-bottom">
+                    <p><b>OPINION</b></p>
+                </div>
+                <div class=" w-100 d-flex flex-column">
+                    <div class="d-flex border">
+                        <div class=""><a href=""><img
+                                    src="https://d.newsweek.com/en/full/1577421/hank-gilman.webp?w=63&h=63&f=f18b9a7364da071493072861d8b4448f"
+                                    alt=""></a></div>
+                        <div class=" ml-3 align-self-center votes flex-column"><a
+                                class="text-decoration-none text-dark " href="#">Our right to vote in november is in
+                                real danger but it can still be saved</a>
+                            <p>BY DOUG GOURDON</p>
+                        </div>
+                    </div>
+                    <div class=" d-flex border-bottom">
+                        <div class="mt-2"><a href=""><img
+                                    src="https://d.newsweek.com/en/full/1577421/hank-gilman.webp?w=63&h=63&f=f18b9a7364da071493072861d8b4448f"
+                                    alt=""></a></div>
+                        <div class="ml-3 d-flex align-self-center votes flex-column"><a
+                                class="text-decoration-none text-dark " href="#">Our right to vote in november is in
+                                real danger but it can still be saved</a>
+                            <p>BY DOUG GOURDON</p>
+                        </div>
+                    </div>
+                    <div class=" d-flex border-bottom">
+                        <div class="mt-2"><a href=""><img
+                                    src="https://d.newsweek.com/en/full/1577421/hank-gilman.webp?w=63&h=63&f=f18b9a7364da071493072861d8b4448f"
+                                    alt=""></a></div>
+                        <div class="ml-3 d-flex align-self-center votes flex-column"><a
+                                class="text-decoration-none text-dark " href="#">Our right to vote in november is in
+                                real danger but it can still be saved</a>
+
+                            <p>BY DOUG GOURDON</p>
+                        </div>
+                    </div>
+                    <div class=" d-flex border-bottom">
+                        <div class="mt-2"><a href=""><img
+                                    src="https://d.newsweek.com/en/full/1577421/hank-gilman.webp?w=63&h=63&f=f18b9a7364da071493072861d8b4448f"
+                                    alt=""></a></div>
+                        <div class="ml-3 d-flex align-self-center votes flex-column"><a
+                                class="text-decoration-none text-dark " href="#">Our right to vote in november is in
+                                real danger but it can still be saved</a>
+                            <p>BY DOUG GOURDON</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="debate">
+                    <h6><strong>THE DEBATE</strong></h6>
+                </div>
+                <div class="d-flex w-100 biden-section">
+                    <img class="img-responsive biden"
+                        src="https://d.newsweek.com/en/full/1575781/joe-biden.webp?w=397&h=265&f=143b9f300ab9db80889ea2d79ae4e81b"
+                        alt="">
+                    <figure class=" ml-3 mt-auto">Biden's running mate needs to win him an entire state not justa
+                        constituency</figure>
+                </div>
+                <div class=" peter mt-1">
+                    <p><small>BY<strong>&nbsp;PETER ROFF</strong></small></p>
+                    <img class="roff float-right"
+                        src="https://d.newsweek.com/en/full/1528785/roff-new.webp?w=150&h=150&f=0992b2cf5c54139a019181659687bf9a"
+                        alt="">
+                    <p class="versus text-white">VS</p>
+                </div>
+                <div class="d-flex w-100 blue biden-section">
+                    <img class="img-responsive biden"
+                        src="https://d.newsweek.com/en/full/1573022/joe-biden-bernie-sanders.webp?w=397&h=265&f=f90d6b535ea0fcac3ae722c195fdf784"
+                        alt="">
+                    <figure class="ml-3 mt-auto">Biden's running mate needs to win him an entire state not justa
+                        constituency</figure>
+                </div>
+                <div class="peter">
+                    <p><small>BY<strong>&nbsp;PETER ROFF</strong></small></p>
+                    <img class="roff float-right"
+                        src="https://d.newsweek.com/en/full/1528785/roff-new.webp?w=150&h=150&f=0992b2cf5c54139a019181659687bf9a"
+                        alt="">
+                </div>
+                <div class="the-debate">
+                    <div class="debate">
+                        <h6><strong>LATEST NEWS</strong></h6>
+                    </div>
+                    <div class="d-flex w-100 playoff biden-section">
+                        <img class="img-responsive biden"
+                            src="https://d.newsweek.com/en/full/1575781/joe-biden.webp?w=397&h=265&f=143b9f300ab9db80889ea2d79ae4e81b"
+                            alt="">
+                        <figure class=" ml-3 mt-auto"><strong>Biden's running mate needs to win him an entire
+                                state not justa constituency</strong></figure>
+                    </div>
+                    <div class="d-flex w-100 mt-2 playoff biden-section">
+                        <img class="img-responsive biden"
+                            src="https://d.newsweek.com/en/full/1578432/chris-cuomo.webp?w=95&h=95&f=b1a535c0f0802a46d19589e335a17516"
+                            alt="">
+                        <figure class=" ml-3 mt-auto"><strong>Biden's running mate needs to win him an entire
+                                state not justa constituency</strong></figure>
+                    </div>
+                    <div class="d-flex w-100 mt-2 playoff biden-section">
+                        <img class="img-responsive biden"
+                            src="https://d.newsweek.com/en/full/1575781/joe-biden.webp?w=397&h=265&f=143b9f300ab9db80889ea2d79ae4e81b"
+                            alt="">
+                        <figure class=" ml-3 mt-auto"><strong>Biden's running mate needs to win him an entire
+                                state not justa constituency</strong></figure>
+                    </div>
+                    <div class="d-flex w-100 mt-2 playoff biden-section">
+                        <img class="img-responsive biden"
+                            src="https://d.newsweek.com/en/full/1575781/joe-biden.webp?w=397&h=265&f=143b9f300ab9db80889ea2d79ae4e81b"
+                            alt="">
+                        <figure class=" ml-3 mt-auto"><strong>Biden's running mate needs to win him an entire
+                                state not justa constituency</strong></figure>
+                    </div>
+                    <div class="d-flex w-100 mt-2 playoff biden-section">
+                        <img class="img-responsive biden"
+                            src="https://d.newsweek.com/en/full/1575781/joe-biden.webp?w=397&h=265&f=143b9f300ab9db80889ea2d79ae4e81b"
+                            alt="">
+                        <figure class=" ml-3 mt-auto"><strong>Biden's running mate needs to win him an entire
+                                state not justa constituency</strong></figure>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 pt-3 pt-lg- align-self-center m-auto">
+                <div class="d-flex item1 w-100 top flex-wrap">
+                    <div class="w-100"><img class="img-responsive trump w-100"
+                            src="https://d.newsweek.com/en/full/1572014/worlds-best-hospitals-2020.png?w=500&h=333&f=c871e2709e79f9ba030be976797f7aa2"
+                            alt=""></div>
+                    <div class="mt-2"><a class="text-decoration-none corona text-dark" href="#"><b>WITH CORONA VIRUS ON
+                                97
+                                BASES, THE
+                                MILITARY STRUGGLES WITH IT'S MANY MISSIONS</b></a></div>
+                    <div class="us">
+                        <p>"All necessary measures"?While every military base is alert to the threat of COVID-19, only a
+                            tiny portion of the force is actually being utilized.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class=" d-flex align-items-center justify-content-center w-100">
+                        <div><img class="w-100" src="images/news-sign.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="d-flex item1 w-100 top flex-wrap">
+                    <div class="w-100"><img class="img-responsive trump w-100"
+                            src="https://d.newsweek.com/en/full/1572014/worlds-best-hospitals-2020.png?w=500&h=333&f=c871e2709e79f9ba030be976797f7aa2"
+                            alt=""></div>
+                    <div class="mt-2"><a class="text-decoration-none corona text-dark" href="#"><b>WITH CORONA VIRUS ON
+                                97
+                                BASES, THE
+                                MILITARY STRUGGLES WITH IT'S MANY MISSIONS</b></a></div>
+                    <div class="us">
+                        <p>"All necessary measures"?While every military base is alert to the threat of COVID-19, only a
+                            tiny portion of the force is actually being utilized.</p>
+                    </div>
+                </div>
+                <div class="d-flex item1 w-100 top flex-wrap">
+                    <div class="w-100"><img class="img-responsive trump w-100"
+                            src="https://d.newsweek.com/en/full/1572014/worlds-best-hospitals-2020.png?w=500&h=333&f=c871e2709e79f9ba030be976797f7aa2"
+                            alt=""></div>
+                    <div class="mt-2"><a class="text-decoration-none corona text-dark" href="#"><b>WITH CORONA VIRUS ON
+                                97
+                                BASES, THE
+                                MILITARY STRUGGLES WITH IT'S MANY MISSIONS</b></a></div>
+                    <div class="us">
+                        <p>"All necessary measures"?While every military base is alert to the threat of COVID-19, only a
+                            tiny portion of the force is actually being utilized.</p>
+                    </div>
+                </div>
+                <div class="d-flex item1 w-100 justify-content-center top flex-wrap">
+                    <div class="w-100 new-trump"><img class="img-responsive trump w-100"
+                            src="https://d.newsweek.com/en/full/1563365/american-heritage-school.jpg?w=500&h=333&f=09027b683d637126ae539ea5f9f3761f"
+                            alt=""></div>
+                    <div class="mt-2"><a class="text-decoration-none corona text-dark" href="#"><b>WITH CORONA VIRUS ON
+                                97
+                                BASES, THE
+                                MILITARY STRUGGLES WITH IT'S MANY MISSIONS</b></a></div>
+                    <div class="us">
+                        <p>"All necessary measures"?While every military base is alert to the threat of COVID-19, only a
+                            tiny portion of the force is actually being utilized.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="w-100 align-items-center mag d-flex justify-content-center"><a href="#"><img src="images/magazine.png"
+                alt=""></a>
+    </div>
+    <section class="section2">
+        <div class="container-fluid p-0 m-0">
+            <div class="row w-100 m-auto d-flex flex-wrap">
+                <div class="col-12 col-md-3">
+                    <a href="#"><img class="w-100 img-responsive"
+                            src="https://d.newsweek.com/en/full/1577760/cover-april-10-2020.webp?w=290&h=387&q=90&f=223e4b4f684ec82358d1b34700942bde"
+                            alt=""></a>
+                    <div class="w-100 feat d-flex align-items-center bg-light">
+                        <p class="m-auto"><strong>SEE ALL FEATURES</strong></p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <br>
+                    <div class="card p-0 m-0 rounded-0 border-0 py-3">
+                        <div>
+                            <img src="https://d.newsweek.com/en/full/1573813/us-president-donald-trump.webp?w=466&h=311&q=90&f=26d109052f04be260abb7772c12b4686" class="card-img-top" alt="john">
+                            <div class="d-flex w-100 mt-2 bus align-items-center">
+                                <div class="text-white roboto-condensed cover">
+                                    <p><strong>COVER</strong></p>
+                                </div>
+                                <div class="text-danger ml-2">
+                                    <p class="m-auto color-red roboto-condensed"><strong>BUSINESS</strong></p>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <h5 class="work roboto-condensed"><strong>The corona virus will change how we work forever</strong></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <br>
+                    <div class="card p-0 m-0 rounded-0 border-0 py-3">
+                        <div class="position-relative p-0">
+                            <img src="https://d.newsweek.com/en/full/1577311/remote-work-04.webp?w=466&h=311&q=90&f=f2840ff6913f357ddffea7af291afbb5" class="
+                                card-img-top" alt="donald-trump.jpg">
+                            <div class="d-flex w-100 mt-2 align-items-center">
+                                <div class="text-white color-red roboto-condensed cover">
+                                    <p><strong>COVER</strong></p>
+                                </div>
+                                <div class="color-red roboto-condensed ml-2">
+                                    <p class="m-auto"><strong>BUSINESS</strong></p>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <h5 class="work roboto-condensed"><strong>The corona virus will change how we work forever</strong></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <br>
+                    <div class="card p-0 m-0 rounded-0 border-0 py-3">
+                        <div class="position-relative p-0">
+                            <img src="https://d.newsweek.com/en/full/1577620/cul-uncharted-movies-banner.webp?w=466&h=311&q=90&f=efd6114a06932407b563170953ea7178"
+                                class="
+                                card-img-top" alt="">
+                            <div class="d-flex w-100 mt-2 align-items-center">
+                                <div class="roboto-condensed text-white cover">
+                                    <p><strong>COVER</strong></p>
+                                </div>
+                                <div class="roboto-condensed color-red ml-2">
+                                    <p class="m-auto"><strong>BUSINESS</strong></p>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <h5 class="work roboto-condensed"><strong>The corona virus will change how we work forever</strong></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card p-0 m-0 rounded-0 border-0 py-3">
+                        <div class="position-relative p-0">
+                            <img src="https://d.newsweek.com/en/full/1576924/cul-ps-reedus.webp?w=466&h=311&q=90&f=d7a14743a452631b3d9390e961866f63"
+                                class="
+                                card-img-top" alt="">
+                            <div class="d-flex w-100 bus mt-2 align-items-center">
+                                <div class="roboto-condensed text-white cover">
+                                    <p><strong>COVER</strong></p>
+                                </div>
+                                <div class="text-danger ml-2">
+                                    <p class="m-auto color-red roboto-condensed"><strong>BUSINESS</strong></p>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <h5 class="work roboto-condensed"><strong>The corona virus will change how we work forever</strong></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card p-0 m-0 rounded-0 border-0 py-3">
+                        <div class="position-relative p-0">
+                            <img src="https://d.newsweek.com/en/full/1579481/pill.webp?w=397&h=265&f=072be0b4ffa5dc2401b8922632ff4e06" class="
+                                card-img-top" alt="donald-trump.jpg">
+                            <div class="d-flex w-100 bus mt-2 align-items-center">
+                                <div class="roboto-condensed text-white cover">
+                                    <p><strong>COVER</strong></p>
+                                </div>
+                                <div class="text-danger ml-2">
+                                    <p class="m-auto color-red roboto-condensed"><strong>BUSINESS</strong></p>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <h5 class="work roboto-condensed"><strong>The corona virus will change how we work forever</strong></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card p-0 m-0 rounded-0 border-0 py-3">
+                        <div class="position-relative p-0">
+                            <img src="https://d.newsweek.com/en/full/1579252/indianapolis-colts-jim-irsay.webp?w=397&h=265&f=2bdddaff02905f3dff30e9f13822e52c" class="
+                                card-img-top" alt="donald-trump.jpg">
+                            <div class="d-flex w-100 mt-2 align-items-center">
+                                <div class="roboto-condensed text-white cover">
+                                    <p><strong>COVER</strong></p>
+                                </div>
+                                <div class="text-danger ml-2">
+                                    <p class="m-auto color-red roboto-condensed"><strong>BUSINESS</strong></p>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <h5 class="work roboto-condensed"><strong>The corona virus will change how we work forever</strong></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card p-0 m-0 rounded-0 border-0 py-3">
+                        <div class="position-relative p-0">
+                            <img src="https://d.newsweek.com/en/full/1579455/whaling-japan.webp?w=397&h=265&f=089e4eaf2f4fb00d28cd21101a24e313" class="
+                                card-img-top" alt="">
+                            <div class="d-flex w-100 mt-2 align-items-center">
+                                <div class="roboto-condensed text-white cover">
+                                    <p><strong>COVER</strong></p>
+                                </div>
+                                <div class="text-danger ml-2">
+                                    <p class="m-auto roboto-condensed color-red"><strong>BUSINESS</strong></p>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <h5 class="work roboto-condensed"><strong>The corona virus will change how we work forever</strong></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </section>
+    <div class="mt-2 w-100 align-items-center mag d-flex justify-content-center"><a href="#"><img src="images/edit.png"
+                alt=""></a>
+    </div>
+    <section class="section3">
+        <div class="container-fluid p-0 m-0">
+            <div class="row w-100 m-auto d-flex flex-wrap">
+                <div class=" col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                    <div class="card p-0 m-0 rounded-0 border-0 py-3">
+                        <div class="position-relative p-0">
+                            <img src="https://d.newsweek.com/en/full/1579406/toilet-stock.webp?w=397&h=265&f=17babb9f8a8667387a5ca1e25f8c444c" class="
+                                card-img-top" alt="donald-trump.jpg">
+                            <div class="d-flex w-100 mt-2 align-items-center">
+                                <div class="roboto-condensed text-white cover">
+                                    <p><strong>COVER</strong></p>
+                                </div>
+                                <div class="text-danger ml-2">
+                                    <p class="m-auto roboto-condensed color-red"><strong>BUSINESS</strong></p>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <h5 class="work roboto-condensed"><strong>The corona virus will change how we work forever</strong></h5>
+                            </div>
+                            <div>
+                                <p>Meanwhile, more than 90% of people are living in countries with travel restrictions
+                                    amid the COVID-19 outbreak.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                    <div class="card p-0 m-0 rounded-0 border-0 py-3">
+                        <div class="position-relative p-0">
+                            <img src="https://d.newsweek.com/en/full/1579361/market-where-pangolin-other-bushmeat-are-sold.webp?w=397&h=265&f=eca212f161de201f6d1c8b2ad20a9dec" class="
+                                card-img-top" alt="">
+                            <div class="d-flex w-100 mt-2 align-items-center">
+                                <div class="roboto-condensed text-white cover">
+                                    <p><strong>COVER</strong></p>
+                                </div>
+                                <div class="text-danger ml-2">
+                                    <p class="m-auto roboto-condensed color-red"><strong>BUSINESS</strong></p>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <h5 class="work roboto-condensed"><strong>The corona virus will change how we work forever</strong></h5>
+                            </div>
+                            <div>
+                                <p>Meanwhile, more than 90% of people are living in countries with travel restrictions
+                                    amid the COVID-19 outbreak.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-xm-12">
+                    <div class="card p-0 m-0 rounded-0 border-0 py-3">
+                        <div class="position-relative p-0">
+                            <img src="https://d.newsweek.com/en/full/1579266/mcdonalds.webp?w=397&h=265&f=87c1043e230c4f66b1905ced8a4656b6" class="
+                                card-img-top" alt="donald-trump.jpg">
+                            <div class="d-flex w-100 mt-2 align-items-center">
+                                <div class="roboto-condensed text-white cover">
+                                    <p><strong>COVER</strong></p>
+                                </div>
+                                <div class="roboto-condensed color-red ml-2">
+                                    <p class="m-auto"><strong>BUSINESS</strong></p>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <h5 class="work roboto-condensed"><strong>The corona virus will change how we work forever</strong></h5>
+                            </div>
+                            <div>
+                                <p>Meanwhile, more than 90% of people are living in countries with travel restrictions
+                                    amid the COVID-19 outbreak.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-3 col-md-6 col-sm-12 col-xm-12">
+                    <div class="card p-0 m-0 rounded-0 border-0 py-3">
+                        <div class="position-relative p-0">
+                            <img src="https://d.newsweek.com/en/full/1579337/celia-xakriaba-amazon-indigenous-getty.webp?w=397&h=265&f=1e2347b50b4538fd8ed33d222e3c7733" class="
+                                card-img-top" alt="">
+                            <div class="d-flex w-100 mt-2 align-items-center">
+                                <div class="roboto-condensed text-white cover">
+                                    <p><strong>COVER</strong></p>
+                                </div>
+                                <div class="color-red roboto-condensed ml-2">
+                                    <p class="m-auto"><strong>BUSINESS</strong></p>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <h5 class="work roboto-condensed"><strong>The corona virus will change how we work forever</strong></h5>
+                            </div>
+                            <div>
+                                <p>Meanwhile, more than 90% of people are living in countries with travel restrictions
+                                    amid the COVID-19 outbreak.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="mt-2 w-100 align-items-center mag d-flex justify-content-center"><a href="#"><img src="images/slide.png"
+                alt=""></a>
+    </div>
+    <section class="section4">
+        <div class="container-fluid p-0 m-0">
+            <div class="row w-100 m-auto d-flex flex-wrap">
+                <div class="col-md-4 ">
+                    <div class="card p-0 m-0 rounded-0 border-0 py-3">
+                        <div class="position-relative p-0">
+                            <img src="https://d.newsweek.com/en/full/1560097/tozeur-tunisia.webp?w=397&h=265&f=69a77ef1bd7e21c060a7b7685b05a73d"
+                                class="
+                            card-img-top" alt="donald-trump.jpg">
+                            <div class="mt-2">
+                                <h5 class="work roboto-condensed"><strong>The corona virus will change how we work forever</strong></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card p-0 m-0 rounded-0 border-0 py-3">
+                        <div class="position-relative p-0">
+                            <img src="https://d.newsweek.com/en/full/1552749/eyjafjallajokull-iceland.webp?w=397&h=265&f=ea1ffc67b32c527ef435529cb5bd2dc6"
+                                class="
+                            card-img-top" alt="donald-trump.jpg">
+                            <div class="mt-2">
+                                <h5 class="work"><strong>The corona virus will change how we work forever</strong></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card p-0 m-0 rounded-0 border-0 py-3">
+                        <div class="position-relative p-0">
+                            <img src="https://d.newsweek.com/en/full/1547486/lipschutz-living-room-hotel-chelsea.webp?w=397&h=265&f=fb4270bf5fbc2591cc43d24d0377621d"
+                                class="
+                            card-img-top" alt="donald-trump.jpg">
+                            <div class="mt-2">
+                                <h5 class="work"><strong>The corona virus will change how we work forever</strong></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="mt-4 w-100 align-items-center mag d-flex justify-content-center">
+    </div>
+    <section class="section5">
+        <div class="container-fluid p-0 m-0">
+            <div class=" w-25 ml-3">
+                <p><strong class=" united text-danger">U.S</strong></p>
+            </div>
+            <div class="row w-100 m-auto d-flex flex-wrap">
+                <div class="col-md-4 ">
+                    <div class="card p-0 m-0 rounded-0 border-0 py-3">
+                        <div class="position-relative p-0">
+                            <img src="https://d.newsweek.com/en/full/1579341/tom-brady-new-england-patriots.webp?w=397&h=265&f=f52c851512bbfc69353eb92bbe4461ad"
+                                class="
+                        card-img-top" alt="donald-trump.jpg">
+                            <div class="mt-2">
+                                <h5 class="work roboto-condensed"><strong>The corona virus will change how we work forever</strong></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card p-0 m-0 rounded-0 border-0 py-3">
+                        <div class="position-relative p-0">
+                            <img src="https://d.newsweek.com/en/full/1579164/president-donald-trump.webp?w=397&h=265&f=de3adda0870ba5ab60ba6972b0ed99e1"
+                                class="
+                        card-img-top" alt="donald-trump.jpg">
+                            <div class="mt-2">
+                                <h5 class="work roboto-condensed"><strong>The corona virus will change how we work forever</strong></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-100 col-md-4 d-flex flex-column ">
+                    <div class="w-100 d-flex mt-3">
+                        <div class="w-30"><a href="#"><img
+                                    src="https://d.newsweek.com/en/full/1576441/man-virus-mask-nyc-march-2020.webp?w=95&h=95&f=273c81bf20c91c676a7df062f99c18f2"
+                                    alt=""></a></div>
+                        <div class="float-right ml-2 workers">
+                            <article><h5 class="roboto-condensed"><a href="#"><strong class="text-dark aoc w-100">AOC's ACCUSES AMAZON OF RACIST
+                                        SMEAR CAMPAIGN AGAINST FIRED WORKERS</strong></a></h5></article>
+                        </div>
+                    </div>
+                    <div class="w-100 d-flex border-top mt-2">
+                        <div class="w-30 mt-2"><a href="#"><img
+                                    src="https://d.newsweek.com/en/full/1578985/methane-worms.webp?w=95&h=95&f=2251245747576f1b18feb811b4f2e3e7"
+                                    alt=""></a></div>
+                        <div class="float-right ml-2 workers">
+                            <article><h5 class="roboto-condensed"><a href="#"><strong class="text-dark aoc w-100">AOC's ACCUSES AMAZON OF RACIST
+                                        SMEAR CAMPAIGN AGAINST FIRED WORKERS</strong></a></h5></article>
+                        </div>
+                    </div>
+                    <div class="w-100 d-flex border-top mt-2">
+                        <div class="w-30 mt-2"><a href="#"><img
+                                    src="https://d.newsweek.com/en/full/1578989/ngc-4651.webp?w=95&h=95&f=2f28e383a81d3a151478f13f568a9327"
+                                    alt=""></a></div>
+                        <div class="float-right ml-2 workers">
+                            <article><h5 class="roboto-condensed"><a href="#"><strong class="text-dark aoc w-100">AOC's ACCUSES AMAZON OF RACIST
+                                        SMEAR CAMPAIGN AGAINST FIRED WORKERS</strong></a></h5></article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="mt-4 w-100 align-items-center mag d-flex justify-content-center">
+    </div>
+    <section class="section6">
+        <div class="container-fluid p-0 m-0">
+            <div class=" w-25 ml-3">
+                <p><strong class=" united roboto-condensed color-red">WORLD</strong></p>
+            </div>
+            <div class="row w-100 m-auto d-flex flex-wrap">
+                <div class="col-md-4 ">
+                    <div class="card p-0 m-0 rounded-0 border-0 py-3">
+                        <div class="position-relative p-0">
+                            <img src="https://d.newsweek.com/en/full/1578857/deportation-flight.webp?w=397&h=265&l=0&t=0&f=cbd026dc2ea1cf124bbf0b49f83d10ee"
+                                class="
+                        card-img-top" alt="donald-trump.jpg">
+                            <div class="mt-2">
+                                <h5 class="work"><strong>The corona virus will change how we work forever</strong></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card p-0 m-0 rounded-0 border-0 py-3">
+                        <div class="position-relative p-0">
+                            <img src="https://d.newsweek.com/en/full/1579497/honor-blackman.webp?w=397&h=265&f=82f1dcf92132b03a22f902f8da16e66a"
+                                class="
+                        card-img-top" alt="donald-trump.jpg">
+                            <div class="mt-2">
+                                <h5 class="work"><strong>The corona virus will change how we work forever</strong></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-100 col-md-4 d-flex flex-column ">
+                    <div class="w-100 d-flex mt-3">
+                        <div class="w-30"><a href="#"><img
+                                    src="https://d.newsweek.com/en/full/1579244/drew-mcintyre-wins-wwe-championship-wrestlemania-36.webp?w=95&h=95&l=39&t=37&f=4cde1bafbdf804b811643bb3c62c71c4"
+                                    alt=""></a></div>
+                        <div class="float-right ml-2 workers">
+                            <article><h5 class="roboto-condensed"><a href="#"><strong class="text-dark aoc w-100">AOC's ACCUSES AMAZON OF RACIST
+                                        SMEAR CAMPAIGN AGAINST FIRED WORKERS</strong></a></h5></article>
+                        </div>
+                    </div>
+                    <div class="w-100 d-flex border-top mt-2">
+                        <div class="w-30 mt-2"><a href="#"><img
+                                    src="https://d.newsweek.com/en/full/1579246/wwe-wrestlemania-36-firefly-fun-house-fiend.webp?w=95&h=95&l=58&t=14&f=56d83bfb020dbcb58667ee1a11c82e8a"
+                                    alt=""></a></div>
+                        <div class="float-right ml-2 workers">
+                            <article><h5 class="roboto-condensed"><a href="#"><strong class="text-dark aoc w-100">AOC's ACCUSES AMAZON OF RACIST
+                                        SMEAR CAMPAIGN AGAINST FIRED WORKERS</strong></a></h5></article>
+                        </div>
+                    </div>
+                    <div class="w-100 d-flex border-top mt-2">
+                        <div class="w-30 mt-2"><a href="#"><img
+                                    src="https://d.newsweek.com/en/full/1578856/ocasio-cortez.webp?w=95&h=95&f=81019a5aacd34ee469b4edb53e1c74ce"
+                                    alt=""></a></div>
+                        <div class="float-right ml-2 workers">
+                            <article><h5 class='roboto-condensed'><a href="#"><strong class="text-dark aoc w-100">AOC's ACCUSES AMAZON OF RACIST
+                                        SMEAR CAMPAIGN AGAINST FIRED WORKERS</strong></a></h5></article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="mt-4 w-100 align-items-center mag d-flex justify-content-center">
+    </div>
+    <section class="section7">
+        <div class="container-fluid p-0 m-0">
+            <div class=" w-25 ml-3">
+                <p><strong class=" united color-red roboto-condensed">Business</strong></p>
+            </div>
+            <div class="row w-100 m-auto d-flex flex-wrap">
+                <div class="col-md-4 ">
+                    <div class="card p-0 m-0 rounded-0 border-0 py-3">
+                        <div class="position-relative p-0">
+                            <img src="https://d.newsweek.com/en/full/1578857/deportation-flight.webp?w=397&h=265&l=0&t=0&f=cbd026dc2ea1cf124bbf0b49f83d10ee"
+                                class="
+                        card-img-top" alt="donald-trump.jpg">
+                            <div class="mt-2">
+                                <h5 class="work"><strong>The corona virus will change how we work forever</strong></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card p-0 m-0 rounded-0 border-0 py-3">
+                        <div class="position-relative p-0">
+                            <img src="https://d.newsweek.com/en/full/1578901/coronavirus-pandemic-causes-climate-anxiety-changing-routines-america.webp?w=397&h=265&f=4bb9a7a0344d0f9041f0d6feac90b7bd"
+                                class="
+                        card-img-top" alt="donald-trump.jpg">
+                            <div class="mt-2">
+                                <h5 class="work"><strong>The corona virus will change how we work forever</strong></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-100 col-md-4 d-flex flex-column ">
+                    <div class="w-100 d-flex mt-3">
+                        <div class="w-30"><a href="#"><img
+                                    src="https://d.newsweek.com/en/full/1536099/nurse.webp?w=95&h=95&f=14b8aa9dc455678e33d01d21cc41ef61"
+                                    alt=""></a></div>
+                        <div class="float-right ml-2 workers">
+                            <article><h5 class="roboto-condensed"><a href="#"><strong class="text-dark aoc w-100">AOC's ACCUSES AMAZON OF RACIST
+                                        SMEAR CAMPAIGN AGAINST FIRED WORKERS</strong></a></h5></article>
+                        </div>
+                    </div>
+                    <div class="w-100 d-flex border-top mt-2">
+                        <div class="w-30 mt-2"><a href="#"><img
+                                    src="https://d.newsweek.com/en/full/1579454/chrissy-teigen.webp?w=95&h=95&f=c790b0dfcdef3caaeebe6913e34edadf"
+                                    alt=""></a></div>
+                        <div class="float-right ml-2 workers">
+                            <article><h5 class="roboto-condensed"><a href="#"><strong class="text-dark aoc w-100">AOC's ACCUSES AMAZON OF RACIST
+                                        SMEAR CAMPAIGN AGAINST FIRED WORKERS</strong></a></h5></article>
+                        </div>
+                    </div>
+                    <div class="w-100 d-flex border-top mt-2">
+                        <div class="w-30 mt-2"><a href="#"><img
+                                    src="https://d.newsweek.com/en/full/1579484/coronavirus-hospital.webp?w=95&h=95&f=9fb0f0f298f795010153356942b1c112"
+                                    alt=""></a></div>
+                        <div class="float-right ml-2 workers">
+                            <article><h5 class="roboto-condensed"><a href="#"><strong class="text-dark aoc w-100">AOC's ACCUSES AMAZON OF RACIST
+                                        SMEAR CAMPAIGN AGAINST FIRED WORKERS</strong></a></h5></article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="mt-4 w-100 align-items-center mag d-flex justify-content-center">
+    </div>
+    <section class="section8">
+        <div class="container-fluid p-0 m-0">
+            <div class=" w-25 ml-3">
+                <p><strong class=" united color-red roboto-condensed">Tech & Science</strong></p>
+            </div>
+            <div class="row w-100 m-auto d-flex flex-wrap">
+                <div class="col-md-4 ">
+                    <div class="card p-0 m-0 rounded-0 border-0 py-3">
+                        <div class="position-relative p-0">
+                            <img src="https://d.newsweek.com/en/full/1579576/thomas-modly.webp?w=397&h=265&f=a2fcabdc85613dde553c42fddd644982"
+                                class="
+                        card-img-top" alt="donald-trump.jpg">
+                            <div class="mt-2">
+                                <h5 class="work"><strong>The corona virus will change how we work forever</strong></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card p-0 m-0 rounded-0 border-0 py-3">
+                        <div class="position-relative p-0">
+                            <img src="https://d.newsweek.com/en/full/1579585/donald-trump.webp?w=397&h=265&f=798b2ba2a081351f64804f8f165f004f"
+                                class="
+                        card-img-top" alt="donald-trump.jpg">
+                            <div class="mt-2">
+                                <h5><strong>The corona virus will change how we work forever</strong></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-100 col-md-4 d-flex flex-column ">
+                    <div class="w-100 d-flex mt-3">
+                        <div class="w-30"><a href="#"><img
+                                    src="https://d.newsweek.com/en/full/1579334/ali-shamkhani-iran-us-coronavirus-imf-loan.webp?w=95&h=95&f=8bc60dcb5e404d6edcfc51e8b6287213"
+                                    alt=""></a></div>
+                        <div class="float-right ml-2 workers">
+                            <article><h5 class="roboto-condensed"><a href="#"><strong class="text-dark aoc w-100">AOC's ACCUSES AMAZON OF RACIST
+                                        SMEAR CAMPAIGN AGAINST FIRED WORKERS</strong></a></h5></article>
+                        </div>
+                    </div>
+                    <div class="w-100 d-flex border-top mt-2">
+                        <div class="w-30 mt-2"><a href="#"><img
+                                    src="https://d.newsweek.com/en/full/1579313/boris-trump.webp?w=95&h=95&f=a3b943223fc42fa3533590183123398a"
+                                    alt=""></a></div>
+                        <div class="float-right ml-2 workers">
+                            <article><h5 class="roboto-condensed"><a href="#"><strong class="text-dark aoc w-100">AOC's ACCUSES AMAZON OF RACIST
+                                        SMEAR CAMPAIGN AGAINST FIRED WORKERS</strong></a></h5></article>
+                        </div>
+                    </div>
+                    <div class="w-100 d-flex border-top mt-2">
+                        <div class="w-30 mt-2"><a href="#"><img
+                                    src="https://d.newsweek.com/en/full/1579300/coronavirus-naples-italy-march-2020.webp?w=95&h=95&f=b3782179ee5c816b469b49a591700d49"
+                                    alt=""></a></div>
+                        <div class="float-right ml-2 workers">
+                            <article><h5 class="roboto-condensed"><a href="#"><strong class="text-dark aoc w-100">AOC's ACCUSES AMAZON OF RACIST
+                                        SMEAR CAMPAIGN AGAINST FIRED WORKERS</strong></a></h5></article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="mt-4 w-100 align-items-center mag d-flex justify-content-center">
+    </div>
+    <section class="section9">
+        <div class="container-fluid p-0 m-0">
+            <div class=" w-25 ml-3">
+                <p><strong class=" united color-red roboto-condensed">Culture</strong></p>
+            </div>
+            <div class="row w-100 m-auto d-flex flex-wrap">
+                <div class="col-md-4 ">
+                    <div class="card p-0 m-0 rounded-0 border-0 py-3">
+                        <div class="position-relative p-0">
+                            <img src="https://d.newsweek.com/en/full/1579352/lidl.webp?w=397&h=265&f=22072a1028e7eb384ef6e794d43b5444"
+                                class="
+                        card-img-top" alt="donald-trump.jpg">
+                            <div class="mt-2">
+                                <h5 class="work"><strong>The corona virus will change how we work forever</strong></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card p-0 m-0 rounded-0 border-0 py-3">
+                        <div class="position-relative p-0">
+                            <img src="https://d.newsweek.com/en/full/1579500/coronavirus-south-africa.webp?w=397&h=265&f=70c1290d20c0e93763c65413afb02c84"
+                                class="
+                        card-img-top" alt="donald-trump.jpg">
+                            <div class="mt-2">
+                                <h5 class="work"><strong>The corona virus will change how we work forever</strong></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-100 col-md-4 d-flex flex-column ">
+                    <div class="w-100 d-flex mt-3">
+                        <div class="w-30"><a href="#"><img
+                                    src="https://d.newsweek.com/en/full/1579538/new-york.webp?w=95&h=95&f=3456bf0048a563328df7e8f75bcde1d0"
+                                    alt=""></a></div>
+                        <div class="float-right ml-2 workers">
+                            <article><h5 class="roboto-condensed"><a href="#"><strong class="text-dark aoc w-100">AOC's ACCUSES AMAZON OF RACIST
+                                        SMEAR CAMPAIGN AGAINST FIRED WORKERS</strong></a></h5></article>
+                        </div>
+                    </div>
+                    <div class="w-100 d-flex border-top mt-2">
+                        <div class="w-30 mt-2"><a href="#"><img
+                                    src="https://d.newsweek.com/en/full/1579550/scott-stringer.webp?w=95&h=95&f=e345620ebe5e792d79329db2b3aa8a46"
+                                    alt=""></a></div>
+                        <div class="float-right ml-2 workers">
+                            <article><h5 class="roboto-condensed"><a href="#"><strong class="text-dark aoc w-100">AOC's ACCUSES AMAZON OF RACIST
+                                        SMEAR CAMPAIGN AGAINST FIRED WORKERS</strong></a></h5></article>
+                        </div>
+                    </div>
+                    <div class="w-100 d-flex border-top mt-2">
+                        <div class="w-30 mt-2"><a href="#"><img
+                                    src="https://d.newsweek.com/en/full/1579518/new-york-city-coronavirus.webp?w=95&h=95&f=c5f452ed52ccd233d5640bcc960d43ec"
+                                    alt=""></a></div>
+                        <div class="float-right ml-2 workers">
+                            <article><h5 class="roboto-condensed"><a href="#"><strong class="text-dark aoc w-100">AOC's ACCUSES AMAZON OF RACIST
+                                        SMEAR CAMPAIGN AGAINST FIRED WORKERS</strong></a></h5></article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="mt-4 w-100 align-items-center mag d-flex justify-content-center">
+    </div>
+    <section class="section10">
+        <div class="container-fluid p-0 m-0">
+            <div class=" w-25 ml-3">
+                <p><strong class=" united color-red roboto-condensed">SPORTS</strong></p>
+            </div>
+            <div class="row w-100 m-auto d-flex flex-wrap">
+                <div class="col-md-4 ">
+                    <div class="card p-0 m-0 rounded-0 border-0 py-3">
+                        <div class="position-relative p-0">
+                            <img src="https://d.newsweek.com/en/full/1579471/arlo-camera.webp?w=397&h=265&f=2a48aefd062547baf57e5c23a539406a"
+                                class="
+                        card-img-top" alt="donald-trump.jpg">
+                            <div class="mt-2">
+                                <h5 class="work"><strong>The corona virus will change how we work forever</strong></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card p-0 m-0 rounded-0 border-0 py-3">
+                        <div class="position-relative p-0">
+                            <img src="https://d.newsweek.com/en/full/1579355/supermoon.webp?w=397&h=265&f=ad8c82556712c312e0af5cfe20699ce8"
+                                class="
+                        card-img-top" alt="donald-trump.jpg">
+                            <div class="mt-2">
+                                <h5 class="work"><strong>The corona virus will change how we work forever</strong></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-100 col-md-4 d-flex flex-column ">
+                    <div class="w-100 d-flex mt-3">
+                        <div class="w-30"><a href="#"><img
+                                    src="https://d.newsweek.com/en/full/1579055/donald-trump-oil-prices-economy-saudi-coronavirus.webp?w=95&h=95&f=f44899f1951ff3dd8093736b0dc34a42"
+                                    alt=""></a></div>
+                        <div class="float-right ml-2 workers">
+                            <article><h5 class="roboto-condensed"><a href="#"><strong class="text-dark aoc w-100">AOC's ACCUSES AMAZON OF RACIST
+                                        SMEAR CAMPAIGN AGAINST FIRED WORKERS</strong></a></h5></article>
+                        </div>
+                    </div>
+                    <div class="w-100 d-flex border-top mt-2">
+                        <div class="w-30 mt-2"><a href="#"><img
+                                    src="https://d.newsweek.com/en/full/1579098/bank-america.webp?w=95&h=95&f=27a0f40d23ac5aad451344e820e1cc4c"
+                                    alt=""></a></div>
+                        <div class="float-right ml-2 workers">
+                            <article><h5 class="roboto-condensed"><a href="#"><strong class="text-dark aoc w-100">AOC's ACCUSES AMAZON OF RACIST
+                                        SMEAR CAMPAIGN AGAINST FIRED WORKERS</strong></a></h5></article>
+                        </div>
+                    </div>
+                    <div class="w-100 d-flex border-top mt-2">
+                        <div class="w-30 mt-2"><a href="#"><img
+                                    src="https://d.newsweek.com/en/full/1578135/oil-donald-trump-coronavirus-russia-saudi-arabia.webp?w=95&h=95&f=f69db17382af3a52c6518c6df6b73703"
+                                    alt=""></a></div>
+                        <div class="float-right ml-2 workers">
+                            <article><h5 class="roboto-condensed"><a href="#"><strong class="text-dark aoc w-100">AOC's ACCUSES AMAZON OF RACIST
+                                        SMEAR CAMPAIGN AGAINST FIRED WORKERS</strong></a></h5></article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="mt-4 w-100 align-items-center mag d-flex justify-content-center">
+    </div>
+    <section class="section-11 mt-3">
+        <div class="container-fluid p-0 m-0">
+            <div class="row p-0 m-0 px-lg-3 mx-0">
+                <div class="col-12 col-lg-7 col-xl-8 px-0 pr-md-2 bg-light">
+                    <div class="bg-white ">
+                        <p><strong class="roboto-condensed color-red">SUBSCRIBE</strong></p>
+                    </div>
+                    <div class=" d-md-flex">
+                        <div class=" mx-auto work-from-home">
+                            <div><img
+                                    src="https://d.newsweek.com/en/full/1576902/april-03-2020-cover.jpg?w=170&q=95&f=e7b6af0ef76e162727acd0141bfc2e8a"
+                                    alt=""></div>
+                            <div class="work-home"><img
+                                    src="https://d.newsweek.com/en/full/1577760/cover-april-10-2020.jpg?w=170&q=95&f=a4b41b48dc29ccde5be9091db89cdf35"
+                                    alt=""></div>
+                        </div>
+                        <div class=" d-flex flex-column mt-3">
+                            <div class="text-center roboto-condensed d-flex text-md-left flex-wrap mt-3 pl-md-5">
+                                <h5 class=""><strong>In-depth Stories You Don't See Elsewhere About Topics You Want to
+                                        Read!</strong></h5>
+                            </div>
+                            <div class="text-center lora text-md-left mt-3 pl-md-5">
+                                <p>All Access + Weekly Delivery.<br>
+                                    Choose A Membership That's Perfect for You!</p>
+                            </div>
+                            <div class="text-center mt-3 text-md-left pl-md-5"><button
+                                    class=" end-button text-md new-color border border-white text-white text-center"
+                                    type="button"><b>SUBSCRIBE</b>&nbsp;&nbsp;<img class="arro"
+                                        src="ic-white-arrow.webp" alt=""></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-12 col-lg-5 pl-0 col-xl-4 d-flex flex-column">
+                    <div class="bg-white">
+                        <p><strong class="color-red roboto-condensed ml-3 mt-1">NEWSLETTER</strong></p>
+                    </div>
+                    <div class="d-md-flex">
+                        <div class="ml-0">
+                            <div class="col-md-2 new-phone col-sm-12"><img class="iphone"
+                                    src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5"
+                                    alt=""></div>
+                        </div>
+                        <div class="row d-flex flex-column ml-3 mt-3">
+                            <div class=" text-center text-md-left">
+                                <h5><strong>The starting 5</strong></h5>
+                            </div>
+                            <div class=" m-aut">
+                                <p>See why nearly a quarter of a million subscribers begin their day with the Starting
+                                    5.
+                                </p>
+                            </div>
+                            <div class=" text-center mt-1 text-md-left pl-md-4"><button
+                                    class=" end-button text-md new-color border border-white text-white"
+                                    type="button"><b>SIGN UP</b>&nbsp;&nbsp;<img class="arro"
+                                        src="ic-white-arrow.webp" alt=""></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="mt-4 w-100 align-items-center mag d-flex justify-content-center">
+    </div>
+    <div class="mt-4">
+        <div>
+            <div class="foot ml-2">
+                <div class="news-weeks float-left d-flex">
+                    <div><a href="#">
+                            <img src="images/new.png" alt="">
+                        </a></div>
+                    <div>
+                        <p class="copy  ml-2 mt-2">©&nbsp;2020&nbsp;NEWSWEEK</p>
+                    </div>
+                </div>
+                <div class="icon float-right">
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fas fa-wifi"></i></a>
+                    <a href="#"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mt-4 w-100 align-items-center mag d-flex justify-content-center">
+    </div>
+    <footer class="footer mt-2 mb-3">
+        <div class="d-flex ml-3 flex-column">
+            <div class="d-flex">
+                <a href="#">Editions:</a>
+                <a class="border-right" href="#">U.S Edition </a>
+                <a class="border-right" href="#">日本 </a>
+                <a class="border-right" href="#">Pakistan </a>
+                <a class="border-right" href="#">Polska </a>
+                <a class="border-right" href="#">Romania</a>
+            </div>
+            <div class="col-12 p-0 d-flex flex-wrap">
+                <a href="#">About us </a>
+                <a class="border-right" href="#">Corrections</a>
+                <a class="border-right" href="#">Contact Us</a>
+                <a class="border-right" href="#">Editorial Guidlines </a>
+                <a class="border-right" href="#">Advertise</a>
+                <a class="border-right" href="#">CopyRight</a>
+                <a class="border-right" href="#">U.S Edition </a>
+                <a class="border-right" href="#">Terms & Conditions</a>
+                <a class="border-right" href="#">Privacy Policy</a>
+                <a class="border-right" href="#">Cookie Policy</a>
+                <a class="border-right" href="#">Terms of sale</a>
+                <a class="border-right" href="#">Archive</a>
+                <a class="border-right" href="#">Announcement</a>
+
+            </div>
+            <div>
+                <a href="#">Consent preferences</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

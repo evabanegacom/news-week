@@ -1,0 +1,23 @@
+{
+  "name": "news-week",
+  "version": "1.0.0",
+  "description": "news-week-clone",
+  "main": "stylelint.config.js",
+  "dependencies": {},
+  "devDependencies": {
+    "stylelint-config-recommended": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evabanegacom/news-week.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evabanegacom/news-week/issues"
+  },
+  "homepage": "https://github.com/evabanegacom/news-week#readme"
+}
