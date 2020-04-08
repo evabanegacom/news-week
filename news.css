@@ -269,12 +269,15 @@ figure {
 .covid-19 p {
   font-size: 14px;
   float: center;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .covid-19 a {
   color: black;
   float: center;
-  font-size: 13px;
+  font-size: 14px;
+  margin-top: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .covid-pc {
